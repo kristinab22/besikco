@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shopping Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=2">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style> 
+		.item {
+			border: 1px solid black;
+			padding: 20px;
+			width: 200px;
+			height: 300px;
+			float: left;
+		}
+
+		#output {
+			clear: both;
+		
+		}
+		#checkout {
+			display: none;
+		}
+	</style> 
+</head>
+<body>
+<div id="checkoutdiv">
+        <div>Subtotal <span class="items"></span> (items):<span class="total"></span></div>
+        <div> <a class="btn btn-success" data-toggle="modal" data-target="#cart">open cart</a><span class="btn btn-primary">checkout</span></div>
+    </div>
+
+<div class="item">
+<h3>bésik hats</h3><img src="http:/placehold.it/140x100" class="img-responsive">
+	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="snapbacks" data-s="fitted" data-price="2200" data-id="1">Add to Cart</a></div>
+</div>
+
+<div class="item"><h3>bésik beanies</h3><img src="http:/placehold.it/140x100" class="img-responsive">
+	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="beanies" data-s="sm" data-price="2200" data-id="2">Add to Cart</a></div>
+</div>
+
+<div class="item"><h3>bésik swim</h3><img src="http:/placehold.it/140x100" class="img-responsive">
+	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="swim" data-s="sm" data-price="2200" data-id="3">Add to Cart</a></div>
+</div>
+
+<div class="item"><h3>bésik gear</h3><img src="http:/placehold.it/140x100" class="img-responsive">
+	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="gear" data-s="sm" data-price="2200" data-id="4">Add to Cart</a></div>
+</div>
+
+<div class="item"><h3>bésik t-shirts</h3><img src="http:/placehold.it/140x100" class="img-responsive">
+	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="T-shirts" data-s="sm" data-price="1500" data-id="5">Add to Cart</a></div>
+</div>
+
+<!-- Cart Modal -->
+<div id="cart" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+	        	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	        	<h3 id="myModalLabel">shopping cart</h3> 
+	    	</div>
+	        <div class="modal-body">
+	        <table class="table table-hover">
+	        	<thead>
+	        		<tr>
+	        			<th>qty</th>
+	        			<th>item name</th>
+	        			<th>cost</th>
+	        			<th class="text-right">subtotal</th>
+	        		</tr>
+	        	</thead>
+	        	<tbody id="output">
+	        		
+	        	</tbody>
+	        </table>
+
+
+
+	            
+	        </div>
+	    	<div class="modal-footer">
+	        	<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+	        	<button class="btn btn-primary">Save changes</button>
+	    	</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+
+	var shopcart = [];
+	$(document).ready(function(){
+		outputCart();
+		$(".productitem").click(function(e){
+			 e.preventDefault();
+			 var iteminfo = $(this.dataset)[0];
+			 iteminfo.qty = 1;
+			 var itemincart = false;
+			 $.each(shopcart,function(index,value){
+			 	//console.log(index + ' ' + value.id);
+			 	if(value.id == iteminfo.id){
+			 		value.qty =  parseInt(value.qty) + parseInt(iteminfo.qty);
+			 		itemincart = true;
+			 	}
+			 })
+			 if(!itemincart) {
+			 	shopcart.push(iteminfo);
+			 }
+			 sessionStorage["sca"] = JSON.stringify(shopcart);
+			 outputCart();
+		})
+	})
+	function outputCart(){
+		if(sessionStorage["sca"] != null){
+			shopcart = JSON.parse(sessionStorage["sca"].toString());
+			console.log(sessionStorage["sca"]);
+			$('#checkout').show();
+		}
+		var holderHTML = "";
+		var total = 0;
+		var itemCount = 0;
+		$.each(shopcart,function(index,value){
+			console.log(value);
+			subtotal = value.qty * value.price;
+			total += subtotal;
+			itemCount += parseInt(value.qty);
+			holderHTML += '<tr><td>'+ value.qty + '</td><td>' + value.id + '' + value.name + '('+ value.s +')</td><td>' + formatMoney(value.price) + '</td><td class="text-right"> ' + formatMoney(subtotal) + '</td></tr>';		
+		})
+		holderHTML += '<tr><td colspan="3" class="text-right">total</td><td class="text-right">' + formatMoney(total) + '</td></tr>';
+		$("#output").html(holderHTML);
+		$(".total").html(formatMoney(total));
+		$(".items").html(itemCount);
+
+		function formatMoney(n) {
+			return '$' + (n/100).toFixed(2);
+		}
+	}	
+
+</script>
+</body>
+</html>

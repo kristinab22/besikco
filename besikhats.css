@@ -1,0 +1,83 @@
+ul.nav.navbar-nav {
+    margin-left: 0.5em;
+}
+ul.nav.navbar-nav li {
+    padding: 0.5em;
+}
+li.nav.navbar-nav.navbar-right {
+    padding-top: 1em;
+}
+li.nav.navbar-nav.navbar-right a {
+    padding: 0.5em;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    background-color: rgba(0, 0, 0, 0.82) !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff !important;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #383737;
+}
+.container.container-logo {
+    margin-top: 4em;
+}
+div#apparel-style {
+    padding-bottom: 2em;
+}
+
+footer.besik-footer {
+    background-color: #000;
+}
+.footer-icons {
+    display: inline-flex;
+}
+.row-footer h4 {
+    color: #55b9b9;
+}
+.row-footer .col-sm-12.col-md-4.col-lg-4 a {
+    color: #fff;
+    text-decoration: none;
+}
+.row-footer .col-sm-12.col-md-4.col-lg-4 a:hover {
+    color: #efe992;
+}
+input#email-subscribe {
+    border: 2px solid rgba(37, 142, 132, 0.84);
+    height: 4.1em;
+    padding: 1em;
+    width: 13em;
+}
+.btn.email-info {
+    height: 4.2em;
+    width: 8em;
+    background-color: #55b9b9;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+.col-sm-12.col-md-4.col-lg-4 li {
+    display: block;
+    padding: 1em;
+}
+
+.container.copywright {
+    background-color: #000;
+    width: 100%;
+}
+
+.footer-bottom .row.text-center {
+    color: #fff;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.payment-icons {
+    display: inline-block;
+    float: right;
+    margin-top: -0.5em;
+    clear: both;
+}
