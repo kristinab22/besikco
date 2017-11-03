@@ -14,8 +14,8 @@ li.nav.navbar-nav.navbar-right a {
     padding: 0.5em;
 }
 nav.navbar.navbar-inverse {
-  background-color: rgb(146, 25, 25);
-  margin-bottom: 0;
+    background-color: rgb(146, 25, 25);
+    margin-bottom: 0;
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
@@ -24,10 +24,6 @@ nav.navbar.navbar-inverse {
 .navbar-inverse .navbar-toggle {
     border-color: #333;
     background-color: #383737;
-}
-
-div#product-component-1509593493732 {
-    display: inline-flex;
 }
 div#apparel-style {
     padding-bottom: 2em;

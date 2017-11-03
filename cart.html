@@ -10,7 +10,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<style> 
+	<style>
 		.item {
 			border: 1px solid black;
 			padding: 20px;
@@ -21,18 +21,18 @@
 
 		#output {
 			clear: both;
-		
+
 		}
 		#checkout {
 			display: none;
 		}
-	</style> 
+	</style>
 </head>
 <body>
 <div id="checkoutdiv">
-        <div>Subtotal <span class="items"></span> (items):<span class="total"></span></div>
-        <div> <a class="btn btn-success" data-toggle="modal" data-target="#cart">open cart</a><span class="btn btn-primary">checkout</span></div>
-    </div>
+	<div>Subtotal <span class="items"></span> (items):<span class="total"></span></div>
+	<div> <a class="btn btn-success" data-toggle="modal" data-target="#cart">open cart</a><span class="btn btn-primary">checkout</span></div>
+</div>
 
 <div class="item">
 <h3>bésik hats</h3><img src="http:/placehold.it/140x100" class="img-responsive">
@@ -61,7 +61,7 @@
 		<div class="modal-content">
 			<div class="modal-header">
 	        	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-	        	<h3 id="myModalLabel">shopping cart</h3> 
+	        	<h3 id="myModalLabel">shopping cart</h3>
 	    	</div>
 	        <div class="modal-body">
 	        <table class="table table-hover">
@@ -74,13 +74,13 @@
 	        		</tr>
 	        	</thead>
 	        	<tbody id="output">
-	        		
+
 	        	</tbody>
 	        </table>
 
 
 
-	            
+
 	        </div>
 	    	<div class="modal-footer">
 	        	<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -129,7 +129,7 @@
 			subtotal = value.qty * value.price;
 			total += subtotal;
 			itemCount += parseInt(value.qty);
-			holderHTML += '<tr><td>'+ value.qty + '</td><td>' + value.id + '' + value.name + '('+ value.s +')</td><td>' + formatMoney(value.price) + '</td><td class="text-right"> ' + formatMoney(subtotal) + '</td></tr>';		
+			holderHTML += '<tr><td>'+ value.qty + '</td><td>' + value.id + '' + value.name + '('+ value.s +')</td><td>' + formatMoney(value.price) + '</td><td class="text-right"> ' + formatMoney(subtotal) + '</td></tr>';
 		})
 		holderHTML += '<tr><td colspan="3" class="text-right">total</td><td class="text-right">' + formatMoney(total) + '</td></tr>';
 		$("#output").html(holderHTML);
@@ -139,7 +139,7 @@
 		function formatMoney(n) {
 			return '$' + (n/100).toFixed(2);
 		}
-	}	
+	}
 
 </script>
 </body>
