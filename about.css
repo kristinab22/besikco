@@ -1,0 +1,27 @@
+.container.container-logo {
+    margin-top: 4em;
+}
+ul.nav.navbar-nav {
+    margin-left: 0.5em;
+}
+ul.nav.navbar-nav li {
+    padding: 0.5em;
+}
+li.nav.navbar-nav.navbar-right {
+    padding-top: 1em;
+}
+li.nav.navbar-nav.navbar-right a {
+    padding: 0.5em;
+}
+nav.navbar.navbar-inverse {
+  background-color: rgb(146, 25, 25);
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff !important;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #383737;
+}

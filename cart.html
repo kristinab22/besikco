@@ -29,30 +29,90 @@
 	</style>
 </head>
 <body>
-<div id="checkoutdiv">
-	<div>Subtotal <span class="items"></span> (items):<span class="total"></span></div>
-	<div> <a class="btn btn-success" data-toggle="modal" data-target="#cart">open cart</a><span class="btn btn-primary">checkout</span></div>
-</div>
+	<div id="checkoutdiv">
+		<div>Subtotal <span class="items"></span> (items):<span class="total"></span></div>
+		<div> <a class="btn btn-success" data-toggle="modal" data-target="#cart">open cart</a><span class="btn btn-primary">checkout</span></div>
+	</div>
 
-<div class="item">
-<h3>bésik hats</h3><img src="http:/placehold.it/140x100" class="img-responsive">
-	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="snapbacks" data-s="fitted" data-price="2200" data-id="1">Add to Cart</a></div>
+	<header class="header">
+		<div class="htop"></div>
+		<div class="hbottom"></div>
+	</header>
+	<div class="content">
+		<!-- content changes on each page -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-block">
+							<h3 class="card-title">bésik hats</h3>
+							<img src="http:/placehold.it/140x100" class="img-fluid">
+							</div>
+							<div class="card-block">
+								<div class="card-text">dkdjfhdsjkfhdskjfhkhaskda
+								<a href="#" class="productitem" data-name="snapbacks" data-s="fitted" data-price="2500" data-id="1">Add to Cart</a></div>
+							</div>
+					</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-block">
+						<h3 class="card-title">bésik shirts</h3>
+						<img src="http:/placehold.it/140x100" class="img-fluid">
+						</div>
+						<div class="card-block">
+							<div class="card-text">dkdjfhdsjkfhdskjfhkhaskda
+							<a href="#" class="productitem" data-name="shirts" data-s="sm" data-price="1600" data-id="#2">Add to Cart</a></div>
+						</div>
+				</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-block">
+					<h3 class="card-title">bésik shorts</h3>
+					<img src="http:/placehold.it/140x100" class="img-fluid">
+					</div>
+					<div class="card-block">
+						<div class="card-text">dkdjfhdsjkfhdskjfhkhaskda
+						<a href="#" class="productitem" data-name="shorts" data-s="L" data-price="4200" data-id="#3">Add to Cart</a></div>
+					</div>
+			</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<div class="card-block">
+				<h3 class="card-title">bésik crewnecks</h3>
+				<img src="http:/placehold.it/140x100" class="img-fluid">
+				</div>
+				<div class="card-block">
+					<div class="card-text">dkdjfhdsjkfhdskjfhkhaskda
+					<a href="#" class="productitem" data-name="crewneck" data-s="L" data-price="3000" data-id="4">Add to Cart</a></div>
+				</div>
+		</div>
 </div>
-
-<div class="item"><h3>bésik beanies</h3><img src="http:/placehold.it/140x100" class="img-responsive">
-	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="beanies" data-s="sm" data-price="2200" data-id="2">Add to Cart</a></div>
+<div class="col-md-4">
+	<div class="card">
+		<div class="card-block">
+			<h3 class="card-title">bésik hoodies</h3>
+			<img src="http:/placehold.it/140x100" class="img-fluid">
+			</div>
+			<div class="card-block">
+				<div class="card-text">dkdjfhdsjkfhdskjfhkhaskda
+				<a href="#" class="productitem" data-name="hoodies" data-s="L" data-price="3500" data-id="5">Add to Cart</a></div>
+			</div>
+	</div>
 </div>
-
-<div class="item"><h3>bésik swim</h3><img src="http:/placehold.it/140x100" class="img-responsive">
-	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="swim" data-s="sm" data-price="2200" data-id="3">Add to Cart</a></div>
-</div>
-
-<div class="item"><h3>bésik gear</h3><img src="http:/placehold.it/140x100" class="img-responsive">
-	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="gear" data-s="sm" data-price="2200" data-id="4">Add to Cart</a></div>
-</div>
-
-<div class="item"><h3>bésik t-shirts</h3><img src="http:/placehold.it/140x100" class="img-responsive">
-	<div>dkdjfhdsjkfhdskjfhkhaskda <a href="#" class="productitem" data-name="T-shirts" data-s="sm" data-price="1500" data-id="5">Add to Cart</a></div>
+<div class="col-md-4">
+	<div class="card">
+		<div class="card-block">
+			<h3 class="card-title">bésik ???</h3>
+			<img src="http:/placehold.it/140x100" class="img-fluid">
+			</div>
+			<div class="card-block">
+				<div class="card-text">dkdjfhdsjkfhdskjfhkhaskda
+				<a href="#" class="productitem" data-name="???" data-s="fitted" data-price="2200" data-id="6">Add to Cart</a></div>
+			</div>
+	</div>
 </div>
 
 <!-- Cart Modal -->
@@ -77,9 +137,6 @@
 
 	        	</tbody>
 	        </table>
-
-
-
 
 	        </div>
 	    	<div class="modal-footer">
