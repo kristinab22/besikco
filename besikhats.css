@@ -26,8 +26,11 @@ nav.navbar.navbar-inverse {
     background-color: #383737;
 }
 
-div#apparel-style {
-    padding-bottom: 2em;
+div#products {
+    width: 90%;
+}
+.shopify-buy-frame--product {
+    display: -webkit-inline-box !important;
 }
 
 footer.besik-footer {
