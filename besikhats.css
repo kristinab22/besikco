@@ -48,6 +48,7 @@ div#products {
     padding-top: 2em;
 }
 
+
 footer.besik-footer {
     background-color: #0ea2ce;
 }
@@ -90,12 +91,11 @@ footer.besik-footer {
 }
 
 .parallax-2 {
-    background-image: url("images/besik-baseball.png");
+    background-image: url("images/IMG_0466.JPG");
 
     min-height: 350px;
 
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
