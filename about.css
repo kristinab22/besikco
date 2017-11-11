@@ -25,3 +25,42 @@ nav.navbar.navbar-inverse {
     border-color: #333;
     background-color: #383737;
 }
+
+footer.besik-footer {
+    background-color: #0ea2ce;
+}
+.footer-icons {
+    display: inline-flex;
+}
+.row-footer h4 {
+    color: #efe992;
+}
+.row-footer .col-sm-12.col-md-4.col-lg-4 a {
+    color: #fff;
+    text-decoration: none;
+}
+.row-footer .col-sm-12.col-md-4.col-lg-4 a:hover {
+    color: #efe992;
+}
+.hours-email li {
+  color: white;
+}
+.col-sm-12.col-md-4.col-lg-4 li {
+    display: block;
+    padding: 1em;
+}
+.container.copywright {
+    background-color: #0ea2ce;
+    width: 100%;
+}
+.footer-bottom .row.text-center {
+    color: #fff;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.payment-icons {
+    display: inline-block;
+    float: right;
+    margin-top: -0.5em;
+    clear: both;
+}
