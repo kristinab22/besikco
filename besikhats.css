@@ -103,3 +103,12 @@ footer.besik-footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax-3 {
+    background-image: url("images/mesh-flex.jpg");
+
+    min-height: 350px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
