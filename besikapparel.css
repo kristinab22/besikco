@@ -1,16 +1,11 @@
-body {
-  position: relative;
-
-}
-
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #apparel-style img.img-repsonsive.img-circle {
     width: auto;
   }
 }
 
-.container.container-logo {
-    margin-top: 4em;
+.container-fluid {
+    padding-top: 4em;
 }
 ul.nav.navbar-nav {
     margin-left: 0.5em;

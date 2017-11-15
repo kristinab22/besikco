@@ -1,6 +1,22 @@
-.container.container-logo {
-    margin-top: 4em;
+@media only screen and (min-width: 768px) {
+  .container.container-men-shirts {
+      width: 900px;
+  }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .container.container-men-shirts{
+      width: 1200px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .container.container-men-shirts {
+      text-align: center;
+  }
+}
+.container-fluid {
+    padding-top: 4em;
+}
+
 ul.nav.navbar-nav {
     margin-left: 0.5em;
 }
@@ -14,8 +30,8 @@ li.nav.navbar-nav.navbar-right a {
     padding: 0.5em;
 }
 nav.navbar.navbar-inverse {
-    background-color: rgb(146, 25, 25);
-    margin-bottom: 0;
+  background-color: rgb(146, 25, 25);
+  margin-bottom: 0;
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
@@ -32,7 +48,7 @@ div#men-shirts {
 .shopify-buy-frame--product {
     display: -webkit-inline-box !important;
 }
-.container.container-men-shirts{
+.container.container-hats {
     padding-top: 2em;
 }
 
@@ -59,19 +75,15 @@ footer.besik-footer {
     display: block;
     padding: 1em;
 }
-
 .container.copywright {
     background-color: #0ea2ce;
     width: 100%;
 }
-
 .footer-bottom .row.text-center {
     color: #fff;
     padding-bottom: 1em;
     padding-top: 1em;
 }
-
-
 .payment-icons {
     display: inline-block;
     float: right;
