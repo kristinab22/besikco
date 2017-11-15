@@ -1,23 +1,6 @@
-@media only screen and (min-width: 768px) {
-  .container.container-hats {
-      width: 900px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
-  .container.container-hats {
-      width: 1200px;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 768px) {
-  .container.container-hats {
-      text-align: center;
-  }
-}
-
 .container.container-logo {
     margin-top: 4em;
 }
-
 ul.nav.navbar-nav {
     margin-left: 0.5em;
 }
@@ -31,8 +14,8 @@ li.nav.navbar-nav.navbar-right a {
     padding: 0.5em;
 }
 nav.navbar.navbar-inverse {
-  background-color: rgb(146, 25, 25);
-  margin-bottom: 0;
+    background-color: rgb(146, 25, 25);
+    margin-bottom: 0;
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
@@ -42,15 +25,14 @@ nav.navbar.navbar-inverse {
     border-color: #333;
     background-color: #383737;
 }
-
-div#products {
+div#men-shirts {
     width: 90%;
     padding-bottom: 2em;
 }
 .shopify-buy-frame--product {
     display: -webkit-inline-box !important;
 }
-.container.container-hats {
+.container.container-men-shirts{
     padding-top: 2em;
 }
 
@@ -88,28 +70,11 @@ footer.besik-footer {
     padding-bottom: 1em;
     padding-top: 1em;
 }
+
+
 .payment-icons {
     display: inline-block;
     float: right;
     margin-top: -0.5em;
     clear: both;
-}
-
-.parallax-2 {
-    background-image: url("images/IMG_0466.JPG");
-
-    min-height: 350px;
-
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-3 {
-    background-image: url("images/mesh-flex.jpg");
-
-    min-height: 350px;
-
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
