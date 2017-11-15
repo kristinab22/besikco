@@ -54,6 +54,8 @@ div#men-shirts {
 
 footer.besik-footer {
     background-color: #0ea2ce;
+    position: absolute;
+    width: 100%
 }
 .footer-icons {
     display: inline-flex;

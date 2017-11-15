@@ -26,6 +26,17 @@ nav.navbar.navbar-inverse {
     background-color: #383737;
 }
 
+div#women-shirts {
+    width: 90%;
+    padding-bottom: 2em;
+}
+.shopify-buy-frame--product {
+    display: -webkit-inline-box !important;
+}
+.container.container-women-shirts {
+    padding-top: 2em;
+}
+
 footer.besik-footer {
     background-color: #0ea2ce;
     position: absolute;
