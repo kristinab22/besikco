@@ -1,22 +1,21 @@
 @media only screen and (min-width: 768px) {
-  .container.container-men-shirts {
+  .container.container-women-sweats {
       width: 900px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
-  .container.container-men-shirts{
+  .container.container-women-sweats{
       width: 1200px;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 768px) {
-  .container.container-men-shirts {
+  .container.container-women-sweats {
       text-align: center;
   }
 }
 .container-fluid {
     padding-top: 4em;
 }
-
 ul.nav.navbar-nav {
     margin-left: 0.5em;
 }
@@ -41,14 +40,15 @@ nav.navbar.navbar-inverse {
     border-color: #333;
     background-color: #0ea2ce;
 }
-div#men-shirts {
+
+div#women-sweats {
     width: 90%;
     padding-bottom: 2em;
 }
 .shopify-buy-frame--product {
     display: -webkit-inline-box !important;
 }
-.container.container-hats {
+.container.container-men-sweats {
     padding-top: 2em;
 }
 

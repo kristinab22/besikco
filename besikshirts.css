@@ -23,12 +23,14 @@ nav.navbar.navbar-inverse {
 }
 .navbar-inverse .navbar-toggle {
     border-color: #333;
-    background-color: #383737;
+    background-color: #0ea2ce;
 }
 div#apparel-style {
     padding-bottom: 2em;
 }
-
+.container.shirts.text-center {
+  padding-top: 2em;
+}
 footer.besik-footer {
     background-color: #0ea2ce;
     position: absolute;
@@ -72,4 +74,13 @@ footer.besik-footer {
     float: right;
     margin-top: -0.5em;
     clear: both;
+}
+.parallax-2 {
+    background-image: url("images/IMG_0466.JPG");
+
+    min-height: 350px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
