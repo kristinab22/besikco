@@ -6,6 +6,9 @@
 .container-fluid {
     padding-top: 4em;
 }
+.container.five-day {
+    padding-top: 2em;
+}
 ul.nav.navbar-nav {
     margin-left: 0.5em;
 }
