@@ -9,6 +9,10 @@
 .container.five-day {
     padding-top: 2em;
 }
+p#demo {
+    font-family: monospace;
+    color: #0ea2ce;
+}
 ul.nav.navbar-nav {
     margin-left: 0.5em;
 }
