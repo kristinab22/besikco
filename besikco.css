@@ -11,7 +11,7 @@
 }
 p#demo {
     font-family: monospace;
-    color: #0ea2ce;
+    color: rgb(224, 35, 35);
 }
 ul.nav.navbar-nav {
     margin-left: 0.5em;
