@@ -49,7 +49,9 @@ nav.navbar.navbar-inverse {
 #myCarousel {
   position: relative;
 }
-
+.thumbnail {
+  border: none !important;
+}
 .container.keep-it-basic {
     background-color: black;
     width: 100%;
