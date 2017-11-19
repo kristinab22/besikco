@@ -55,7 +55,7 @@ nav.navbar.navbar-inverse {
     width: 100%;
     padding: 2em;
 }
-.container.keep-it-simple{
+.container.keep-it-simple {
     background-color: black;
     width: 100%;
     padding: 2em;
@@ -73,18 +73,7 @@ nav.navbar.navbar-inverse {
     padding-top: 4em;
     padding-bottom: 4em;
 }
-input#name, #email, #phone, #message {
-    border: 1px solid black;
-    border-radius: 0;
-    padding: 1.5em;
-}
-input#emailfield {
-  border: 2px solid black;
-  border-radius: 0;
-}
-form #contactForm {
-    margin-bottom: 2em;
-}
+
 div#besik-mission {
     padding-bottom: 2em;
     background-color: #fff;

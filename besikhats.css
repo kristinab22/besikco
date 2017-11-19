@@ -42,7 +42,9 @@ nav.navbar.navbar-inverse {
     border-color: #333;
     background-color: #0ea2ce;
 }
-
+.container.container-customize {
+    padding-bottom: 2em;
+}
 div#products {
     width: 90%;
     padding-bottom: 2em;
