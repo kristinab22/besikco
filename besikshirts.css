@@ -29,7 +29,7 @@ div#apparel-style {
     padding-bottom: 2em;
 }
 .container.shirts.text-center {
-  padding-top: 2em;
+  padding-top: 3em;
 }
 footer.besik-footer {
     background-color: #0ea2ce;
@@ -76,7 +76,7 @@ footer.besik-footer {
     clear: both;
 }
 .parallax-2 {
-    background-image: url("images/IMG_0466.JPG");
+    background-image: url("images/danny-tank.jpeg");
 
     min-height: 350px;
 

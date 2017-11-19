@@ -26,7 +26,7 @@ nav.navbar.navbar-inverse {
     background-color: #0ea2ce;
 }
 .container.sweats.text-center {
-    padding-top: 2em;
+    padding-top: 3em;
 }
 footer.besik-footer {
     background-color: #0ea2ce;
@@ -69,10 +69,8 @@ footer.besik-footer {
     clear: both;
 }
 .parallax-2 {
-    background-image: url("images/IMG_0466.JPG");
-
-    min-height: 350px;
-
+    background-image: url("images/besik-jose.jpeg");
+    min-height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
