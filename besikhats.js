@@ -488,3 +488,164 @@
   }
 })();
 /*]]>*/
+
+// besik & co white dad hat
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [407093608486],
+        node: document.getElementById('product-component-1511140105850'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+// keep it besik navy blue dad hat
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [407077552166],
+        node: document.getElementById('product-component-1511141139836'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+// be small logo dad hat
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [407181754406],
+        node: document.getElementById('product-component-1511141763283'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+// be black dad hat small logo
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [407236182054],
+        node: document.getElementById('product-component-1511142453820'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
