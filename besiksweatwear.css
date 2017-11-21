@@ -41,6 +41,9 @@ div#apparel-style {
 .container.container-customize {
     padding-bottom: 2em;
 }
+.thumbnail {
+  border: none !important;
+}
 footer.besik-footer {
     background-color: #0ea2ce;
     position: absolute;
@@ -80,6 +83,13 @@ footer.besik-footer {
     float: right;
     margin-top: -0.5em;
     clear: both;
+}
+.parallax-1 {
+    background-image: url("images/jose-post.jpg");
+    min-height: 450px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .parallax-2 {
     background-image: url("images/jose-post.jpg");

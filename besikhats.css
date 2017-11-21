@@ -51,6 +51,9 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
 .container.container-customize {
     padding-bottom: 2em;
 }
+.container.shipping {
+    padding-top: 2em;
+}
 div#products {
     width: 90%;
     padding-bottom: 2em;
