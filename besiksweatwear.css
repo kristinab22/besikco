@@ -32,6 +32,9 @@ nav.navbar.navbar-inverse {
 div#apparel-style {
     padding-bottom: 2em;
 }
+.container.container-customize {
+    padding-bottom: 2em;
+}
 footer.besik-footer {
     background-color: #0ea2ce;
     position: absolute;
