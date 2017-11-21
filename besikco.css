@@ -81,9 +81,9 @@ nav.navbar.navbar-inverse {
     padding-top: 4em;
     padding-bottom: 4em;
 }
-
 div#besik-mission {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     background-color: #fff;
     width: 100%
 }
@@ -141,7 +141,7 @@ footer.besik-footer {
 
 
 .parallax {
-    background-image: url("images/danny-eos.jpeg");
+    background-image: url("images/besik-twon.jpg");
 
     min-height: 350px;
 
@@ -162,7 +162,7 @@ footer.besik-footer {
 }
 
 .parallax-2 {
-    background-image: url("images/golf-bae.jpeg");
+    background-image: url("images/danny-eos.jpeg");
 
     min-height: 350px;
 
