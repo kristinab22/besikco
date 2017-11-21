@@ -25,6 +25,12 @@ li.nav.navbar-nav.navbar-right {
 li.nav.navbar-nav.navbar-right a {
 	padding: 0.5em;
 }
+nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #0ea2ce !important;
+}
+.navbar-inverse .navbar-nav>.open>a {
+    background-color: #0ea2ce !important;
+}
 .header {
 	  background-color: white !important;
 }

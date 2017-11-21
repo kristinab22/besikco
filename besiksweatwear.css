@@ -26,6 +26,12 @@ nav.navbar.navbar-inverse {
     border-color: #333;
     background-color: #0ea2ce;
 }
+nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #0ea2ce !important;
+}
+.navbar-inverse .navbar-nav>.open>a {
+    background-color: #0ea2ce !important;
+}
 .container.sweats.text-center {
     padding-top: 3em;
 }
