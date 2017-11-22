@@ -85,14 +85,14 @@ footer.besik-footer {
     clear: both;
 }
 .parallax-1 {
-    background-image: url("images/jose-post.jpg");
+    background-image: url("images/besik-jose.jpeg");
     min-height: 450px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax-2 {
-    background-image: url("images/jose-post.jpg");
+    background-image: url("images/amanda-sweat.jpg");
     min-height: 450px;
     background-attachment: fixed;
     background-repeat: no-repeat;
