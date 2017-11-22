@@ -86,7 +86,7 @@ footer.besik-footer {
 .parallax-1 {
     background-image: url("images/beach-jose.jpeg");
     min-height: 350px;
-    background-attachment: fixed;
+    background-attachment: none !important;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -94,7 +94,7 @@ footer.besik-footer {
 .parallax-2 {
     background-image: url("images/du-rag.jpg");
     min-height: 350px;
-    background-attachment: fixed;
+    background-attachment: none !important;
     background-repeat: no-repeat;
     background-size: cover;
 

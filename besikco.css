@@ -1,8 +1,3 @@
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  #apparel-style img.img-repsonsive.img-circle {
-    width: auto;
-  }
-}
 .container-fluid {
     padding-top: 4em;
 }
@@ -51,7 +46,6 @@ nav.navbar.navbar-inverse {
     border-color: #333;
     background-color: #0ea2ce;
 }
-
 #myCarousel {
   position: relative;
 }
@@ -139,7 +133,7 @@ footer.besik-footer {
 .parallax {
     background-image: url("images/track-girls.jpg");
     min-height: 350px;
-    background-attachment: fixed;
+    background-attachment: none !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,7 +141,7 @@ footer.besik-footer {
 .parallax-1 {
     background-image: url("images/danny-eos.jpeg");
     min-height: 350px;
-    background-attachment: fixed;
+    background-attachment: none !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,7 +149,7 @@ footer.besik-footer {
 .parallax-2 {
     background-image: url("images/golf-bae.jpeg");
     min-height: 350px;
-    background-attachment: fixed;
+    background-attachment: none !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
