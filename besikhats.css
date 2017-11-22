@@ -13,6 +13,16 @@
       text-align: center;
   }
 }
+@media only screen and (max-width: 767px) {
+  .parallax-2, .parallax-3 {
+    background-attachment: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .parallax-2, .parallax-3 {
+    background-attachment: fixed;
+  }
+}
 .container-fluid {
     padding-top: 4em;
 }
@@ -108,14 +118,12 @@ footer.besik-footer {
 .parallax-2 {
     background-image: url("images/meish.jpeg");
     min-height: 350px;
-    background-attachment: none !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax-3 {
     background-image: url("images/IMG_0466.JPG");
     min-height: 350px;
-    background-attachment: none !important;
     background-repeat: no-repeat;
     background-size: cover;
 }

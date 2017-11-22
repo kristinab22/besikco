@@ -1,5 +1,10 @@
-@media screen only and (max-width: 767px) {
-  .parallax-1.parallax-2 {
+@media only screen and (max-width: 767px) {
+  .parallax-1, .parallax-2 {
+    background-attachment: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .parallax-1, .parallax-2 {
     background-attachment: fixed;
   }
 }
@@ -91,14 +96,12 @@ footer.besik-footer {
 .parallax-1 {
     background-image: url("images/besik-jose.jpeg");
     min-height: 450px;
-    background-attachment: none !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax-2 {
     background-image: url("images/amanda-sweat.jpg");
     min-height: 450px;
-    background-attachment: none !important;
     background-repeat: no-repeat;
     background-size: cover;
 }

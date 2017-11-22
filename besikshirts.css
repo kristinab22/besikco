@@ -1,3 +1,13 @@
+@media only screen and (max-width: 767px) {
+  .parallax-1, .parallax-2 {
+    background-attachment: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .parallax-1, .parallax-2 {
+    background-attachment: fixed;
+  }
+}
 .container-fluid {
     padding-top: 4em;
 }
@@ -86,7 +96,6 @@ footer.besik-footer {
 .parallax-1 {
     background-image: url("images/beach-jose.jpeg");
     min-height: 350px;
-    background-attachment: none !important;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -94,7 +103,6 @@ footer.besik-footer {
 .parallax-2 {
     background-image: url("images/du-rag.jpg");
     min-height: 350px;
-    background-attachment: none !important;
     background-repeat: no-repeat;
     background-size: cover;
 
