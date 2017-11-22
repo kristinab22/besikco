@@ -121,12 +121,10 @@ footer.besik-footer {
     display: block;
     padding: 1em;
 }
-
 .container.copywright {
     background-color: #0ea2ce;
     width: 100%;
 }
-
 .footer-bottom .row.text-center {
     color: #fff;
     padding-bottom: 1em;
@@ -138,34 +136,25 @@ footer.besik-footer {
     margin-top: -0.5em;
     clear: both;
 }
-
-
 .parallax {
     background-image: url("images/track-girls.jpg");
-
     min-height: 350px;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .parallax-1 {
     background-image: url("images/danny-eos.jpeg");
-
     min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .parallax-2 {
     background-image: url("images/golf-bae.jpeg");
-
     min-height: 350px;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -365,9 +365,7 @@
   }
 })();
 /*]]>*/
-
 // besik navy blue dad hat - blue and white writing
-
 /*<![CDATA[*/
   (function () {
     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -407,7 +405,6 @@
   }
 })();
 /*]]>*/
-
 // besik black dad hat back logo design
 /*<![CDATA[*/
   (function () {
@@ -448,7 +445,6 @@
   }
 })();
 /*]]>*/
-
 // besik navy blue besik and co (back)
 /*<![CDATA[*/
   (function () {
@@ -489,7 +485,6 @@
   }
 })();
 /*]]>*/
-
 // besik & co white dad hat
 /*<![CDATA[*/
   (function () {
