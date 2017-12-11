@@ -26,6 +26,15 @@
 .container-fluid {
     padding-top: 4em;
 }
+.fa-2x {
+    font-size: 1.5em !important;
+}
+.navbar {
+    position: relative;
+    min-height: 6em;
+    border: 1px solid transparent;
+    padding: 0.5em;
+}
 ul.nav.navbar-nav {
     margin-left: 0.5em;
 }
@@ -74,7 +83,7 @@ div#products {
 }
 footer.besik-footer {
     background-color: #0ea2ce;
-    position: absolute;
+    padding-top: 2em;
     width: 100%
 }
 .footer-icons {
@@ -83,17 +92,17 @@ footer.besik-footer {
 .row-footer h4 {
     color: #efe992;
 }
-.row-footer .col-sm-12.col-md-4.col-lg-4 a {
+.row-footer .col-sm-12.col-md-4.col-lg-3 a {
     color: #fff;
     text-decoration: none;
 }
-.row-footer .col-sm-12.col-md-4.col-lg-4 a:hover {
+.row-footer .col-sm-12.col-md-4.col-lg-3 a:hover {
     color: #efe992;
 }
 .hours-email li {
   color: white;
 }
-.col-sm-12.col-md-4.col-lg-4 li {
+.col-sm-12.col-md-4.col-lg-3 li {
     display: block;
     padding: 1em;
 }
@@ -116,7 +125,7 @@ footer.besik-footer {
 }
 
 .parallax-2 {
-    background-image: url("images/meish.jpeg");
+    background-image: url("images/black-trucker.jpg");
     min-height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
