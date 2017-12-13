@@ -1,13 +1,15 @@
-@media only screen and (max-width: 767px) {
-  .parallax, .parallax-1, .parallax-2 {
+
+@media only screen and (max-width: 1024px)  {
+  .parallax, .parallax-2 {
     background-attachment: none;
   }
 }
-@media only screen and (min-width: 768px) {
-  .parallax, .parallax-1, .parallax-2 {
+@media only screen and (min-width: 1025px) {
+  .parallax, .parallax-2 {
     background-attachment: fixed;
   }
 }
+
 .container-fluid.container-roca{
   padding: 0;
 }
@@ -68,29 +70,9 @@ nav.navbar.navbar-inverse {
 .fa-2x {
     font-size: 1.5em !important;
 }
-.container.keep-it-simple {
+.container.keep-it-simple, .keep-it-besik, .fundamentals, .be-you, .empowered, .modify {
     background-color: black;
-    width: 100%;
-    padding: 2em;
-}
-.container.keep-it-besik {
-    background-color: black;
-    width: 100%;
-    padding: 2em;
-}
-.container.fundamentals {
-    background-color: black;
-    width: 100%;
-    padding: 2em;
-}
-.container.be-you{
-    background-color: black;
-    width: 100%;
-    padding: 2em;
-}
-.container.empowered{
-    background-color: black;
-    width: 100%;
+    width: 100% !important;
     padding: 2em;
 }
 .col-sm-6.besik-vibes {
@@ -165,13 +147,6 @@ footer.besik-footer {
 }
 .parallax {
     background-image: url("images/track-girls.jpg");
-    min-height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-1 {
-    background-image: url("images/danny-eos.jpeg");
     min-height: 350px;
     background-position: center;
     background-repeat: no-repeat;
