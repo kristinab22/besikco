@@ -13,9 +13,6 @@
       text-align: center;
   }
 }
-.container-fluid {
-    padding-top: 4em;
-}
 .fa-2x {
     font-size: 1.5em !important;
 }
@@ -88,7 +85,7 @@ footer.besik-footer {
 .hours-email li {
   color: white;
 }
-.col-sm-12.col-md-4.col-lg-3 li {
+.col-sm-12.col-md-4.col-lg-4 li {
     display: block;
     padding: 1em;
 }
