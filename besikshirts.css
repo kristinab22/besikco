@@ -59,7 +59,8 @@ div#apparel-style {
 
 footer.besik-footer {
     background-color: black;
-    padding-top: 2em;
+    padding-top: 1em;
+    position: absolute;
     width: 100%
 }
 .footer-icons {
