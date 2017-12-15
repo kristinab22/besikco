@@ -38,7 +38,7 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
     background-color: #0ea2ce !important;
 }
 footer.besik-footer {
-    background-color: #0ea2ce;
+    background-color: black;
     padding-top: 2em;
     width: 100%
 }
@@ -63,7 +63,7 @@ footer.besik-footer {
     padding: 1em;
 }
 .container.copywright {
-    background-color: #0ea2ce;
+    background-color: black;
     width: 100%;
 }
 .footer-bottom .row.text-center {

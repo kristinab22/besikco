@@ -58,7 +58,7 @@ div#apparel-style {
 }
 
 footer.besik-footer {
-    background-color: #0ea2ce;
+    background-color: black;
     padding-top: 2em;
     width: 100%
 }
@@ -83,7 +83,7 @@ footer.besik-footer {
     padding: 1em;
 }
 .container.copywright {
-    background-color: #0ea2ce;
+    background-color: black;
     width: 100%;
 }
 .footer-bottom .row.text-center {
