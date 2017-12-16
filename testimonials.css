@@ -43,15 +43,17 @@ input#name-input, #email-input {
     height: 50px;
     padding: 6px 12px;
     border: 1px solid #0ea2ce;
+    border-radius: 0;
 }
 textarea#description {
     border: 1px solid #0ea2ce;
-
+    border-radius: 0;
 }
 button.btn.btn-default.submit {
-    float: right;
     background-color: #0ea2ce;
     color: white;
+    float: right;
+    margin-bottom: 1em;
 }
 footer.besik-footer {
     background-color: black;
