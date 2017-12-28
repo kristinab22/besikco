@@ -1118,6 +1118,327 @@
   }
 })();
 /*]]>*/
+// START OF TANK TOPS
+//men's navy blue be/besik tank top
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [450517762086],
+        node: document.getElementById('product-component-1514424321986'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+//mens keep it bésik grey tank top
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [450502819878],
+        node: document.getElementById('product-component-1514423980181'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+//mens black/blue bésik & Co. tank top
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [450487517222],
+        node: document.getElementById('product-component-1514420959962'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+//mens grey besk sup tank top
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [450487386150],
+        node: document.getElementById('product-component-1514420833303'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+//mens besik & co black/yellow tank top
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [450486566950],
+        node: document.getElementById('product-component-1514420488023'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+//mens white bésik & co tank top
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [450482602022],
+        node: document.getElementById('product-component-1514419483387'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+//mens black bésik & co tank top
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [450482044966],
+        node: document.getElementById('product-component-1514419222249'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+//mens bésik white tank top circle
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [450479652902],
+        node: document.getElementById('product-component-1514418748702'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
 // besik white tank top
 /*<![CDATA[*/
   (function () {
@@ -1191,46 +1512,6 @@
       ui.createComponent('product', {
         id: [392728444966],
         node: document.getElementById('product-component-1510731334169'),
-        moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
-      });
-    });
-  }
-})();
-/*]]>*/
-// besik & co tank top
-/*<![CDATA[*/
-  (function () {
-    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-    if (window.ShopifyBuy) {
-      if (window.ShopifyBuy.UI) {
-        ShopifyBuyInit();
-      } else {
-        loadScript();
-      }
-    } else {
-      loadScript();
-    }
-
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'besik.myshopify.com',
-      apiKey: 'b48d63181663503a28908895459f7bd4',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [392737816614],
-        node: document.getElementById('product-component-1510731934727'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
