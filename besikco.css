@@ -68,6 +68,29 @@ nav.navbar.navbar-inverse {
 .fa-2x {
     font-size: 1.5em !important;
 }
+.container-fluid.container-roca .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 95%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+.container-fluid .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 95%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+.content a {
+    color: #fff;
+    text-decoration: none !important;
+}
+.content a:hover {
+    color: #0ea2ce;
+}
 .container.keep-it-simple, .keep-it-besik, .fundamentals, .be-you, .empowered, .modify {
     background-color: black;
     width: 100% !important;
