@@ -23,6 +23,11 @@
     background-attachment: fixed;
   }
 }
+.container.shipping {
+    background-color: #0ea2ce;
+    padding-top: 1em;
+    width: 100%;
+}
 .fa-2x {
     font-size: 1.5em !important;
 }
@@ -64,9 +69,6 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
 }
 .container.container-customize {
     padding-bottom: 2em;
-}
-.container.shipping {
-    padding-top: 2em;
 }
 div#products {
     width: 90%;

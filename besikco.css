@@ -8,14 +8,13 @@
     background-attachment: fixed;
   }
 }
-
-.container-fluid.container-roca .col-sm-4{
-  padding: 0;
-}
 .container.shipping {
     background-color: #0ea2ce;
     padding-top: 1em;
     width: 100%;
+}
+.container-fluid.container-roca .col-sm-4{
+  padding: 0;
 }
 p#demo {
     font-family: monospace;
