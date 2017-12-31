@@ -84,7 +84,6 @@ nav.navbar.navbar-inverse {
     width: 95%; /* Full width */
     padding: 20px; /* Some padding */
 }
-
 .content a {
     color: #fff;
     text-decoration: none !important;
@@ -100,7 +99,9 @@ nav.navbar.navbar-inverse {
 .col-sm-6.besik-vibes {
   padding: 0;
 }
-
+.container-fluid.container-shop .col-sm-4 {
+    padding: 0;
+}
 .row.text-center {
     padding-bottom: 2em;
 }
