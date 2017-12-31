@@ -12,8 +12,10 @@
 .container-fluid.container-roca{
   padding: 0;
 }
-.container.five-day {
-    padding-top: 2em;
+.container.shipping {
+    background-color: black;
+    padding-top: 1em;
+    width: 100%;
 }
 p#demo {
     font-family: monospace;
@@ -25,11 +27,8 @@ p#demo {
     border: 1px solid transparent;
     padding: 0.5em;
 }
-ul.nav.navbar-nav {
-    margin-left: 0.5em;
-}
 ul.nav.navbar-nav li {
-	padding: 0.5em;
+	padding: 0.2em;
 }
 li.nav.navbar-nav.navbar-right {
 	padding-top: 1em;
