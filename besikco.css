@@ -9,11 +9,11 @@
   }
 }
 
-.container-fluid.container-roca{
+.container-fluid.container-roca .col-sm-4{
   padding: 0;
 }
 .container.shipping {
-    background-color: black;
+    background-color: #0ea2ce;
     padding-top: 1em;
     width: 100%;
 }
@@ -76,7 +76,7 @@ nav.navbar.navbar-inverse {
     width: 95%; /* Full width */
     padding: 20px; /* Some padding */
 }
-.container-fluid .content {
+.container-fluid.container-shop .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
@@ -84,6 +84,7 @@ nav.navbar.navbar-inverse {
     width: 95%; /* Full width */
     padding: 20px; /* Some padding */
 }
+
 .content a {
     color: #fff;
     text-decoration: none !important;
@@ -91,8 +92,8 @@ nav.navbar.navbar-inverse {
 .content a:hover {
     color: #0ea2ce;
 }
-.container.keep-it-simple, .keep-it-besik, .fundamentals, .be-you, .empowered, .modify {
-    background-color: black;
+.container.keep-it-simple, .keep-it-besik, .fundamentals, .be-you, .modify {
+    background-color: #0ea2ce;
     width: 100% !important;
     padding: 2em;
 }
@@ -168,14 +169,7 @@ footer.besik-footer {
     clear: both;
 }
 .parallax {
-    background-image: url("images/track-girls.jpg");
-    min-height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-2 {
-    background-image: url("images/golf-bae.jpeg");
+    background-image: url("images/quote.png");
     min-height: 350px;
     background-position: center;
     background-repeat: no-repeat;
