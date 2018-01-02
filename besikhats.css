@@ -67,6 +67,9 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
 .navbar-inverse .navbar-nav>.open>a {
     background-color: #0ea2ce !important;
 }
+ul.nav.navbar-nav a:hover {
+    color: #efe992 !important;
+}
 .container.container-customize {
     padding-bottom: 2em;
 }
