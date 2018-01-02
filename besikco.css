@@ -57,6 +57,9 @@ nav.navbar.navbar-inverse {
   color: #fff !important;
   font-family: "Courier New", Courier, monospace;
 }
+ul.nav.navbar-nav a:hover {
+    color: #efe992 !important;
+}
 .navbar-inverse .navbar-toggle {
     border-color: #333;
     background-color: #0ea2ce;
