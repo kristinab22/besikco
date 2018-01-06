@@ -126,16 +126,3 @@ footer.besik-footer {
     margin-top: -0.5em;
     clear: both;
 }
-
-.parallax-2 {
-    background-image: url("images/black-trucker.jpg");
-    min-height: 350px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-3 {
-    background-image: url("images/IMG_0466.JPG");
-    min-height: 350px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
