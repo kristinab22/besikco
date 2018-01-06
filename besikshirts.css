@@ -58,6 +58,9 @@ ul.nav.navbar-nav a:hover {
 div#apparel-style {
     padding-bottom: 2em;
 }
+div#apparel-style img.img-responsive {
+    margin: auto;
+}
 .container.shirts.text-center {
   padding-top: 3em;
 }
