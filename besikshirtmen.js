@@ -991,9 +991,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [450517762086],
-        node: document.getElementById('product-component-1514424321986'),
+        node: document.getElementById('product-component-1515707403342'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1031,9 +1031,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [450502819878],
-        node: document.getElementById('product-component-1514423980181'),
+        node: document.getElementById('product-component-1515708144992'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1071,9 +1071,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [450487517222],
-        node: document.getElementById('product-component-1514420959962'),
+        node: document.getElementById('product-component-1515708238422'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1111,9 +1111,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [450487386150],
-        node: document.getElementById('product-component-1514420833303'),
+        node: document.getElementById('product-component-1515708314381'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1151,9 +1151,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [450486566950],
-        node: document.getElementById('product-component-1514420488023'),
+        node: document.getElementById('product-component-1515708405536'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1191,9 +1191,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [450482602022],
-        node: document.getElementById('product-component-1514419483387'),
+        node: document.getElementById('product-component-1515708504054'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1231,9 +1231,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [450482044966],
-        node: document.getElementById('product-component-1514419222249'),
+        node: document.getElementById('product-component-1515708762637'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1271,9 +1271,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [450479652902],
-        node: document.getElementById('product-component-1514418748702'),
+        node: document.getElementById('product-component-1515708942823'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1311,9 +1311,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [392626700326],
-        node: document.getElementById('product-component-1510725404549'),
+        node: document.getElementById('product-component-1515709044545'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1351,49 +1351,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [392649015334],
-        node: document.getElementById('product-component-1510726394890'),
+        node: document.getElementById('product-component-1515709155943'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
-      });
-    });
-  }
-})();
-/*]]>*/
-// keep it besik baseball tee
-/*<![CDATA[*/
-  (function () {
-    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-    if (window.ShopifyBuy) {
-      if (window.ShopifyBuy.UI) {
-        ShopifyBuyInit();
-      } else {
-        loadScript();
-      }
-    } else {
-      loadScript();
-    }
-
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'besik.myshopify.com',
-      apiKey: 'b48d63181663503a28908895459f7bd4',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [392745844774],
-        node: document.getElementById('product-component-1510732605095'),
-        moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1431,9 +1391,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [395868012582],
-        node: document.getElementById('product-component-1510773971630'),
+        node: document.getElementById('product-component-1515709866640'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
@@ -1471,49 +1431,9 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [395881709606],
-        node: document.getElementById('product-component-1510774525301'),
+        node: document.getElementById('product-component-1515709945474'),
         moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
-      });
-    });
-  }
-})();
-/*]]>*/
-// be half sleeve baseball tee
-/*<![CDATA[*/
-  (function () {
-    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-    if (window.ShopifyBuy) {
-      if (window.ShopifyBuy.UI) {
-        ShopifyBuyInit();
-      } else {
-        loadScript();
-      }
-    } else {
-      loadScript();
-    }
-
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'besik.myshopify.com',
-      apiKey: 'b48d63181663503a28908895459f7bd4',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [395888590886],
-        node: document.getElementById('product-component-1510774998785'),
-        moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"toggle":{"styles":{"toggle":{"background-color":"#0ea2ce",":hover":{"background-color":"#0d92b9"},":focus":{"background-color":"#0d92b9"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
     });
   }
