@@ -1,20 +1,21 @@
+/*at mobile, image gallery images are algined in the middle */
 @media only screen and (min-width: 400px) and (max-width: 767px) {
   img.img-responsive {
     margin: auto;
   }
 }
+/*shipping banner at the top of the page*/
 .container.shipping {
     background-color: #0ea2ce;
     padding-top: 1em;
     width: 100%;
 }
+/*
 .container-fluid.container-roca .col-sm-4{
   padding: 0;
 }
-p#demo {
-    font-family: monospace;
-    color: rgb(224, 35, 35);
-}
+*/
+/*besik navagation bar*/
 .navbar {
     position: relative;
     min-height: 6em;
@@ -59,9 +60,7 @@ ul.nav.navbar-nav a:hover {
     border-color: #333;
     background-color: #0ea2ce;
 }
-#myCarousel {
-  position: relative;
-}
+/*increase size of social icons*/
 .fa-2x {
     font-size: 1.5em !important;
 }
@@ -100,7 +99,7 @@ img.img-responsive {
 .container.keep-it-simple, .keep-it-besik, .modify {
     background-color: rgb(146, 25, 25);
     width: 100% !important;
-    padding: 2em;
+    padding: 1.5em;
 }
 .container-fluid.container-shop .col-sm-4 {
     padding: 0;
@@ -113,16 +112,13 @@ img.img-responsive {
     padding-top: 4em;
     padding-bottom: 4em;
 }
-div#besik-mission {
+#besik-mission {
     padding-bottom: 1em;
     padding-top: 1em;
     background-color: #fff;
     width: 100%
 }
-div#apparel-style {
-    padding-top: 2.5em;
-}
-div#why-besik {
+#why-besik {
     padding: 2em;
 }
 #why-besik p {
@@ -138,10 +134,12 @@ h2.insta-banner.text-center a {
 h2.gallery-banner.text-center {
     padding-bottom: .2em;
 }
+/*red dividers on the home page*/
 .feature-divider {
   height: 4px;
   background-color: rgb(146, 25, 25);
 }
+/*besik footer*/
 footer.besik-footer {
     background-color: black;
     padding-top: 1em;
