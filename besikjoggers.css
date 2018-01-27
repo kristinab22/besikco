@@ -70,9 +70,6 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
 ul.nav.navbar-nav a:hover {
     color: #efe992 !important;
 }
-.container.container-customize {
-    padding-bottom: 2em;
-}
 div#products {
     width: 90%;
     padding-bottom: 2em;
@@ -80,7 +77,7 @@ div#products {
 .shopify-buy-frame--product {
     display: -webkit-inline-box !important;
 }
-.container.container-hats {
+.container.container-joggers {
     padding-top: 2em;
 }
 footer.besik-footer {
