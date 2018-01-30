@@ -1,43 +1,3 @@
-//besik joggers - yellow/white writing on the bottom
-/*<![CDATA[*/
-  (function () {
-    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-    if (window.ShopifyBuy) {
-      if (window.ShopifyBuy.UI) {
-        ShopifyBuyInit();
-      } else {
-        loadScript();
-      }
-    } else {
-      loadScript();
-    }
-
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'besik.myshopify.com',
-      apiKey: 'b48d63181663503a28908895459f7bd4',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [481508982822],
-        node: document.getElementById('product-component-1517017532704'),
-        moneyFormat: '${{amount}}',
-        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
-      });
-    });
-  }
-})();
-/*]]>*/
 //beisk joggers - blue/white on bottom
 /*<![CDATA[*/
   (function () {
@@ -69,8 +29,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481502134310],
-        node: document.getElementById('product-component-1517015083364'),
+        id: [483244802086],
+        node: document.getElementById('product-component-1517261932059'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -78,7 +38,7 @@
   }
 })();
 /*]]>*/
-//besik joggers - red/white on bottom
+//besik joggers - yellow/white writing on the bottom
 /*<![CDATA[*/
   (function () {
     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -109,8 +69,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481499971622],
-        node: document.getElementById('product-component-1517014757796'),
+        id: [483242541094],
+        node: document.getElementById('product-component-1517261725474'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -149,8 +109,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481496596518],
-        node: document.getElementById('product-component-1517014356582'),
+        id: [483216490534],
+        node: document.getElementById('product-component-1517261155306'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -189,8 +149,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481493581862],
-        node: document.getElementById('product-component-1517013908806'),
+        id: [483213213734],
+        node: document.getElementById('product-component-1517260522904'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -198,7 +158,7 @@
   }
 })();
 /*]]>*/
-//besik joggers - yellow be red accent
+//besik joggers - red/white on bottom
 /*<![CDATA[*/
   (function () {
     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -229,8 +189,48 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481490796582],
-        node: document.getElementById('product-component-1517013480509'),
+        id: [484717690918],
+        node: document.getElementById('product-component-1517346839265'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+      });
+    });
+  }
+})();
+/*]]>*/
+//besik joggers - yellow be logo red accent
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [484719362086],
+        node: document.getElementById('product-component-1517347144381'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -269,8 +269,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481482932262],
-        node: document.getElementById('product-component-1517012955647'),
+        id: [484721786918],
+        node: document.getElementById('product-component-1517347401214'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -309,8 +309,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481481523238],
-        node: document.getElementById('product-component-1517012657865'),
+        id: [484722606118],
+        node: document.getElementById('product-component-1517347592492'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -349,8 +349,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481479884838],
-        node: document.getElementById('product-component-1517012439065'),
+        id: [484724277286],
+        node: document.getElementById('product-component-1517347843454'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -389,8 +389,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481477853222],
-        node: document.getElementById('product-component-1517012086318'),
+        id: [484726767654],
+        node: document.getElementById('product-component-1517348319567'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -429,8 +429,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [480272384038],
-        node: document.getElementById('product-component-1516908846654'),
+        id: [484728274982],
+        node: document.getElementById('product-component-1517348570221'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -438,46 +438,46 @@
   }
 })();
 /*]]>*/
-//besik joggers original  <script type="text/javascript">
-  /*<![CDATA[*/
-    (function () {
-      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-      if (window.ShopifyBuy) {
-        if (window.ShopifyBuy.UI) {
-          ShopifyBuyInit();
-        } else {
-          loadScript();
-        }
+//besik joggers original
+/*<![CDATA[*/
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
       } else {
         loadScript();
       }
-
-    function loadScript() {
-      var script = document.createElement('script');
-      script.async = true;
-      script.src = scriptURL;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-      script.onload = ShopifyBuyInit;
+    } else {
+      loadScript();
     }
 
-    function ShopifyBuyInit() {
-      var client = ShopifyBuy.buildClient({
-        domain: 'besik.myshopify.com',
-        apiKey: 'b48d63181663503a28908895459f7bd4',
-        appId: '6',
-      });
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
 
-      ShopifyBuy.UI.onReady(client).then(function (ui) {
-        ui.createComponent('product', {
-          id: [480246169638],
-          node: document.getElementById('product-component-1516907263964'),
-          moneyFormat: '${{amount}}',
-          options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
-        });
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'besik.myshopify.com',
+      apiKey: 'b48d63181663503a28908895459f7bd4',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [484730306598],
+        node: document.getElementById('product-component-1517348741563'),
+        moneyFormat: '${{amount}}',
+        options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
-    }
-  })();
-  /*]]>*/
+    });
+  }
+})();
+/*]]>*/
 //besik joggers - yellow/white
 /*<![CDATA[*/
   (function () {
@@ -509,8 +509,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [480251904038],
-        node: document.getElementById('product-component-1516907578982'),
+        id: [484731289638],
+        node: document.getElementById('product-component-1517348865542'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -549,8 +549,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481419100198],
-        node: document.getElementById('product-component-1517004164416'),
+        id: [484731846694],
+        node: document.getElementById('product-component-1517349054246'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -589,8 +589,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481428013094],
-        node: document.getElementById('product-component-1517005186245'),
+        id: [484732796966],
+        node: document.getElementById('product-component-1517349195591'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
@@ -629,8 +629,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [481511145510],
-        node: document.getElementById('product-component-1517018017170'),
+        id: [484733321254],
+        node: document.getElementById('product-component-1517349312824'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
