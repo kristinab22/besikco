@@ -132,11 +132,6 @@ h2.insta-banner.text-center a {
 h2.gallery-banner.text-center {
     padding-bottom: .2em;
 }
-/*red dividers on the home page*/
-.feature-divider {
-  height: 4px;
-  background-color: rgb(146, 25, 25);
-}
 /*besik footer*/
 footer.besik-footer {
     background-color: black;
