@@ -10,11 +10,6 @@
     padding-top: 1em;
     width: 100%;
 }
-/*
-.container-fluid.container-roca .col-sm-4{
-  padding: 0;
-}
-*/
 /*besik navagation bar*/
 .navbar {
     position: relative;
@@ -72,6 +67,9 @@ ul.nav.navbar-nav a:hover {
 img.img-responsive {
     margin: auto;
     padding: .5em;
+}
+.container-fluid.container-roca {
+    padding: 0;
 }
 .container-fluid.container-roca .content {
     position: absolute; /* Position the background text */
