@@ -1,0 +1,126 @@
+@media only screen and (min-width: 768px) {
+  .container.container-hats {
+      width: 900px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .container.container-hats {
+      width: 1200px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .container.container-hats {
+      text-align: center;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .parallax-2, .parallax-3 {
+    background-attachment: none;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .parallax-2, .parallax-3 {
+    background-attachment: fixed;
+  }
+}
+.container.shipping {
+    background-color: #0ea2ce;
+    padding-top: 1em;
+    width: 100%;
+}
+.fa-2x {
+    font-size: 1.5em !important;
+}
+.navbar {
+    position: relative;
+    min-height: 6em;
+    border: 1px solid transparent;
+    padding: 0.5em;
+}
+ul.nav.navbar-nav {
+    margin-left: 0.5em;
+}
+ul.nav.navbar-nav li {
+    padding: 0.5em;
+}
+li.nav.navbar-nav.navbar-right {
+    padding-top: 1em;
+}
+li.nav.navbar-nav.navbar-right a {
+    padding: 0.5em;
+}
+nav.navbar.navbar-inverse {
+  background-color: rgb(146, 25, 25);
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff !important;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #0ea2ce;
+}
+nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #0ea2ce !important;
+}
+.navbar-inverse .navbar-nav>.open>a {
+    background-color: #0ea2ce !important;
+}
+ul.nav.navbar-nav a:hover {
+    color: #efe992 !important;
+}
+div#visors {
+    width: 90%;
+    padding-bottom: 2em;
+}
+.shopify-buy-frame--product {
+    display: -webkit-inline-box !important;
+}
+.container.container-visors {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+footer.besik-footer {
+    background-color: black;
+    padding-top: 1em;
+    position: absolute;
+    width: 100%
+}
+.footer-icons {
+    display: inline-flex;
+}
+.row-footer h4 {
+    color: #efe992;
+}
+.row-footer .col-sm-12.col-md-4.col-lg-3 a {
+    color: #fff;
+    text-decoration: none;
+}
+.row-footer .col-sm-12.col-md-4.col-lg-3 a:hover {
+    color: #0ea2ce;
+}
+.hours-email li {
+  color: white;
+}
+.col-sm-12.col-md-4.col-lg-3 li {
+    display: block;
+    padding: 1em;
+}
+
+.container.copywright {
+    background-color: black;
+    width: 100%;
+}
+
+.footer-bottom .row.text-center {
+    color: #fff;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.payment-icons {
+    display: inline-block;
+    float: right;
+    margin-top: -0.5em;
+    clear: both;
+}
