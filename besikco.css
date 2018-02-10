@@ -60,13 +60,10 @@ ul.nav.navbar-nav a:hover {
     font-size: 1.5em !important;
 }
 .container.instagram {
-    margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
-/*align instagram images*/
-img.img-responsive {
-    margin: auto;
-    padding: .5em;
+.container-fluid.container-roca .col-sm-6 {
+    padding: 0;
 }
 .container-fluid.container-roca .content {
     position: absolute; /* Position the background text */
@@ -99,6 +96,9 @@ img.img-responsive {
 .container-fluid.container-shop .col-sm-4 {
     padding: 0;
 }
+.container-fluid.container-models .col-sm-4 {
+    padding: 0;
+}
 .row.text-center {
     padding-bottom: 2em;
 }
@@ -126,8 +126,9 @@ h2.insta-banner.text-center a {
     text-decoration: none;
     color: gray;
 }
-h2.gallery-banner.text-center {
-    padding-bottom: .2em;
+/*align instagram images*/
+.container.instagram img.img-responsive {
+    display: inline;
 }
 /*besik footer*/
 footer.besik-footer {
