@@ -1,7 +1,12 @@
-/*at mobile, image gallery images are algined in the middle */
-@media only screen and (min-width: 400px) and (max-width: 767px) {
-  img.img-responsive {
-    margin: auto;
+/*at mobile, instagram images are algined in the middle then inlined */
+@media only screen and (max-width: 480px) {
+  .container.instagram img.img-responsive {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1440px){
+  .container.instagram img.img-responsive {
+      display: inline;
   }
 }
 /*shipping banner at the top of the page*/
@@ -125,10 +130,6 @@ ul.nav.navbar-nav a:hover {
 h2.insta-banner.text-center a {
     text-decoration: none;
     color: gray;
-}
-/*align instagram images*/
-.container.instagram img.img-responsive {
-    display: inline;
 }
 /*besik footer*/
 footer.besik-footer {
