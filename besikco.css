@@ -68,9 +68,6 @@ img.img-responsive {
     margin: auto;
     padding: .5em;
 }
-.container-fluid.container-roca {
-    padding: 0;
-}
 .container-fluid.container-roca .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
