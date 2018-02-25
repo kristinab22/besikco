@@ -65,7 +65,30 @@ div#apparel-style {
 .container.container-customize {
     padding-bottom: 2em;
 }
-
+.container-fluid.container-models-1 .col-sm-4 {
+    padding: 0;
+}
+.container-fluid.shop-hoodies .col-lg-6 {
+  padding: 0;
+}
+.container-fluid.shop-hoodies {
+  padding: 0;
+}
+.container-fluid.shop-hoodies .content{
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 90%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.content a {
+    color: #fff;
+    text-decoration: none !important;
+}
+.content a:hover {
+    color: #0ea2ce;
+}
 footer.besik-footer {
     background-color: black;
     padding-top: 1em;

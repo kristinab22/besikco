@@ -4,9 +4,9 @@
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 1440px){
+@media only screen and (min-width: 481px) and (max-width: 1600px){
   .container.instagram img.img-responsive {
-      display: inline;
+      display: inline-flex;
   }
 }
 /*shipping banner at the top of the page*/
