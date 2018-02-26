@@ -55,9 +55,6 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
 ul.nav.navbar-nav a:hover {
     color: #efe992 !important;
 }
-div#apparel-style {
-    padding-bottom: 2em;
-}
 div#apparel-style img.img-responsive {
     margin: auto;
 }
@@ -67,7 +64,27 @@ div#apparel-style img.img-responsive {
 .container.container-customize {
     padding-bottom: 2em;
 }
-
+.container-fluid.shirt-models .col-sm-6 {
+  padding: 0;
+}
+.container-fluid.container-shirts .col-lg-6 {
+  padding: 0;
+}
+.container-fluid.container-shirts .content{
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 90%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.content a {
+    color: #fff;
+    text-decoration: none !important;
+}
+.content a:hover {
+    color: #0ea2ce;
+}
 footer.besik-footer {
     background-color: black;
     padding-top: 1em;
