@@ -1,4 +1,4 @@
-//women's bé vday shirt
+//women's besik white shirt black box
 /*<![CDATA[*/
   (function () {
     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -29,8 +29,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [504968871984],
-        node: document.getElementById('product-component-1518029329190'),
+        id: [650165714992],
+        node: document.getElementById('product-component-1523759416184'),
         moneyFormat: '${{amount}}',
         options: {"product":{"variantId":"all","width":"240px","contents":{"imgWithCarousel":false,"variantTitle":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0","margin-bottom":"50px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"compareAt":{"font-size":"12px"}}},"cart":{"contents":{"button":true},"text":{"title":"Your Shopping Cart","total":"TOTAL","notice":"Tax and discounts are included with purchase."},"styles":{"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}},"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}},"button":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"toggle":{"styles":{"toggle":{":hover":{"background-color":"#6ca44e"},":focus":{"background-color":"#6ca44e"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
       });
