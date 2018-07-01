@@ -9,9 +9,10 @@
       display: inline-flex;
   }
 }
+
 /*shipping banner at the top of the page*/
 .container.shipping {
-    background-color: #0ea2ce;
+    background-color: #182948;
     padding-top: 1em;
     width: 100%;
 }
@@ -61,11 +62,9 @@ ul.nav.navbar-nav a:hover {
     background-color: #0ea2ce;
 }
 /*increase size of social icons*/
-.fa-2x {
-    font-size: 1.5em !important;
-}
+
 .container.instagram {
-    margin-bottom: 1.5em;
+    padding-bottom: 4em;
 }
 .container-fluid.container-roca .col-sm-6 {
     padding: 0;
@@ -124,6 +123,18 @@ ul.nav.navbar-nav a:hover {
 #why-besik p {
     font-size: 16px;
 }
+.container.testimonials {
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
+.testimonials {
+    background-color: #0ea2ce;
+    color: white;
+}
+h2.text-center {
+  padding-top: 1.5em;
+}
 .section-title.text-center h2 {
     color: #0ea2ce;
 }
@@ -131,11 +142,15 @@ h2.insta-banner.text-center a {
     text-decoration: none;
     color: gray;
 }
+h2.insta-banner.text-center {
+    padding-top: 1em;
+}
 /*besik footer*/
 footer.besik-footer {
-    background-color: black;
-    padding-top: 1em;
+    background-color: #182948;
+    padding-top: 2em;
     position: absolute;
+    font-size: 16px;
     width: 100%;
 }
 .footer-icons {
@@ -158,14 +173,26 @@ footer.besik-footer {
     display: block;
     padding: 1em;
 }
+.about{
+  text-transform: uppercase;
+}
+.connected {
+  text-transform: uppercase;
+}
+.contact{
+  text-transform: uppercase;
+}
 .container.copywright {
-    background-color: black;
-    width: 100%;
+    background-color: #182948;
+
 }
 .footer-bottom .row.text-center {
     color: #fff;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+.row.text-center p{
+  padding-top: 2em;
 }
 .payment-icons {
     display: inline-block;
