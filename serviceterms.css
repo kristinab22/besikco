@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 .navbar {
-    padding: 1em;
+  padding: 1em;
 }
 .navbar-inverse .navbar-toggle {
     background-color: #0ea2ce;
@@ -21,13 +21,15 @@ nav.navbar.navbar-inverse {
 ul.nav.navbar-nav a:hover {
     color: #0ea2ce !important;
 }
-.line-footer {
-  width: 70%;
-  border: 1px solid  #0ea2ce;
+div.container.service-terms {
+    color: #000000;
+    margin-top: -3em;
 }
 .container.partnerships {
-    padding-top: 2em;
+    background-color: #ffffff;
     padding-bottom: 2em;
+    padding-top: 2em;
+    width: 100%;
 }
 .row.partnerships {
     display: inline-flex;

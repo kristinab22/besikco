@@ -1,4 +1,5 @@
 /*at mobile, instagram images are algined in the middle then inlined */
+/*
 @media only screen and (max-width: 480px) {
   .container.instagram img.img-responsive {
     margin: 0 auto;
@@ -9,7 +10,7 @@
       display: inline-flex;
   }
 }
-
+*/
 /*shipping banner at the top of the page*/
 .container.shipping {
     background-color: #182948;
@@ -43,7 +44,6 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
 }
 h1.text-center, .text-left{
 	font: normal 50px;
-  font-family: "Courier New", Courier, monospace;
   color: hsl(188, 100%, 17%) !important;
 }
 nav.navbar.navbar-inverse {
@@ -52,7 +52,6 @@ nav.navbar.navbar-inverse {
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
-  font-family: "Courier New", Courier, monospace;
 }
 ul.nav.navbar-nav a:hover {
     color: #efe992 !important;
@@ -64,7 +63,7 @@ ul.nav.navbar-nav a:hover {
 /*increase size of social icons*/
 
 .container.instagram {
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 }
 .container-fluid.container-roca .col-sm-6 {
     padding: 0;
@@ -131,6 +130,7 @@ ul.nav.navbar-nav a:hover {
 .testimonials {
     background-color: #0ea2ce;
     color: white;
+    padding-top: .1em;
 }
 h2.text-center {
   padding-top: 1.5em;
@@ -140,10 +140,17 @@ h2.text-center {
 }
 h2.insta-banner.text-center a {
     text-decoration: none;
-    color: gray;
+    color: #182948;
 }
 h2.insta-banner.text-center {
     padding-top: 1em;
+}
+.container.partnerships {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.row.partnerships {
+    display: inline-flex;
 }
 /*besik footer*/
 footer.besik-footer {
@@ -171,7 +178,7 @@ footer.besik-footer {
 }
 .col-sm-12.col-md-4.col-lg-3 li {
     display: block;
-    padding: 1em;
+    padding: 0.5em;
 }
 .about{
   text-transform: uppercase;
