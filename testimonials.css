@@ -6,9 +6,6 @@
 .besik.img-responsive {
   margin: 0 auto;
 }
-.testimonials {
-    margin-top: 6em;
-}
 .navbar {
   padding: 1em;
 }
@@ -28,11 +25,14 @@ div.container.testimonials {
     color: #000000;
     width: 100%;
 }
+.testimonials {
+    margin-top: 2em;
+    background-color: #752323;
+}
 .container.partnerships {
     background-color: #ffffff;
     padding-bottom: 2em;
     padding-top: 2em;
-    width: 100%;
 }
 .row.partnerships {
     display: inline-flex;
