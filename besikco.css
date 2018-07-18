@@ -31,10 +31,6 @@
   background: #007bb5;
   color: white;
 }
-.content {
-  margin-left: 75px;
-  font-size: 30px;
-}
 /*shipping banner at the top of the page*/
 .container.shipping {
     background-color: #182948;
@@ -157,13 +153,16 @@ ul.nav.navbar-nav a:hover {
 }
 .container.testimonials {
     padding-top: 4em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 .testimonials {
     background-color: #9a2727;
     color: white;
     padding-top: .1em;
+}
+.checked {
+    color: orange;
 }
 h2.text-center {
   padding-top: 1.5em;
@@ -190,7 +189,6 @@ footer.besik-footer {
     background-color: #182948;
     padding-top: 2em;
     font-size: 16px;
-    width: 100%;
 }
 .footer-icons {
     display: inline-flex;
