@@ -29,6 +29,9 @@ div.container.testimonials {
     margin-top: 2em;
     background-color: #9a2727;
 }
+.checked {
+    color: orange;
+}
 .container.partnerships {
     background-color: #ffffff;
     padding-bottom: 2em;
