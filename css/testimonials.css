@@ -33,9 +33,8 @@ div.container.testimonials {
     color: orange;
 }
 .container.partnerships {
-    background-color: #ffffff;
-    padding-bottom: 2em;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 .row.partnerships {
     display: inline-flex;
@@ -44,9 +43,7 @@ div.container.testimonials {
 footer.besik-footer {
     background-color: #182948;
     padding-top: 2em;
-    position: absolute;
     font-size: 16px;
-    width: 100%;
 }
 .footer-icons {
     display: inline-flex;
