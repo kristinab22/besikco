@@ -1,5 +1,5 @@
 /*parallax responsive fixed at mobile*/
-@media only screen and (min-width: 400px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) {
       .parallax, .parallax-1 {
         background-attachment: scroll !important;
       }
@@ -137,20 +137,19 @@ ul.nav.navbar-nav a:hover {
 }
 .parallax {
     /* The image used */
-    background-image: url("images/besikback.jpg");
+    background-image: url("../images/besikback.jpg");
 
     /* Set a specific height */
     min-height: 500px;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax-1 {
     /* The image used */
-    background-image: url("images/black-trucker.jpg");
+    background-image: url("/images/black-trucker.jpg");
 
     /* Set a specific height */
     min-height: 500px;
