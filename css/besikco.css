@@ -86,10 +86,6 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
 .header {
 	  background-color: white !important;
 }
-h1.text-center, .text-left{
-	font: normal 50px;
-  color: hsl(188, 100%, 17%) !important;
-}
 nav.navbar.navbar-inverse {
     margin-bottom: 0;
     background-color: rgb(146, 25, 25);
@@ -103,6 +99,10 @@ ul.nav.navbar-nav a:hover {
 .navbar-inverse .navbar-toggle {
     border-color: #333;
     background-color: #0ea2ce;
+}
+h1.text-center, .text-left{
+	font: normal 50px;
+  color: hsl(188, 100%, 17%) !important;
 }
 .container.instagram {
     padding-bottom: 2em;
