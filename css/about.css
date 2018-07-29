@@ -3,7 +3,7 @@
     padding-top: 1em;
     width: 100%;
 }
-.besik.img-responsive {
+.besik.img-responsive.rounded {
   margin: 0 auto;
 }
 .navbar {

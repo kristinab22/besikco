@@ -1,3 +1,18 @@
+/*parallax responsive fixed at mobile*/
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+      .parallax, .parallax-1 {
+        background-attachment: scroll !important;
+      }
+ }
+ @media only screen and (max-width: 768px) {
+       .parallax, .parallax-1 {
+         background-attachment: none !important;
+       }
+  }
+/*padding for brand logo */
+.container-fluid.logo {
+    padding-top: 2em;
+}
 /*sticky icon bar*/
 .icon-side-bar {
   position: fixed;
@@ -89,28 +104,24 @@ ul.nav.navbar-nav a:hover {
     border-color: #333;
     background-color: #0ea2ce;
 }
-/*increase size of social icons*/
-
 .container.instagram {
     padding-bottom: 2em;
 }
-.container-fluid.container-roca .col-sm-6 {
-    padding: 0;
-}
-.container-fluid.container-roca .content {
+
+.container.container-shop-1 .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 95%; /* Full width */
+    width: 70%; /* Full width */
     padding: 20px; /* Some padding */
 }
-.container-fluid.container-shop .content {
+.container.container-shop .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 95%; /* Full width */
+    width: 70%; /* Full width */
     padding: 20px; /* Some padding */
 }
 .content a {
@@ -120,14 +131,51 @@ ul.nav.navbar-nav a:hover {
 .content a:hover {
     color: #0ea2ce;
 }
-.container.keep-it-simple, .keep-it-besik, .empowered {
-    background-color: rgb(146, 25, 25);
-    width: 100% !important;
-    padding: 1.5em;
-}
 .container.mission {
   background-color: #ffffff;
   padding: 4em;
+}
+.parallax {
+    /* The image used */
+    background-image: url("images/besikback.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-1 {
+    /* The image used */
+    background-image: url("images/black-trucker.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container.slogan {
+  padding: 4em;
+}
+.fa.fa-thumbs-up {
+    font-size: 60px;
+    color: #4267b2;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+  color: #29487d;
+}
+.container.facebook-section {
+    padding-bottom: 2em;
 }
 .container-fluid.container-shop .col-sm-4 {
     padding: 0;
@@ -142,18 +190,6 @@ ul.nav.navbar-nav a:hover {
 .container-1.text-center {
     padding-top: 4em;
     padding-bottom: 4em;
-}
-#besik-mission {
-    padding-bottom: 1em;
-    padding-top: 1em;
-    background-color: #fff;
-    width: 100%
-}
-#why-besik {
-    padding: 2em;
-}
-#why-besik p {
-    font-size: 16px;
 }
 .container.testimonials {
     padding-top: 4em;
