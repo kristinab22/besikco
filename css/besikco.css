@@ -13,6 +13,12 @@
 .container-fluid.logo {
     padding-top: 2em;
 }
+/*shipping banner at the top of the page*/
+.container.shipping {
+    background-color: #ffffff;
+    padding-top: 1em;
+    width: 100%;
+}
 /*sticky icon bar*/
 .icon-side-bar {
   position: fixed;
@@ -45,12 +51,6 @@
 .linkedin {
   background: #007bb5;
   color: white;
-}
-/*shipping banner at the top of the page*/
-.container.shipping {
-    background-color: #ffffff;
-    padding-top: 1em;
-    width: 100%;
 }
 /*besik navagation bar*/
 .dropdown-submenu {
