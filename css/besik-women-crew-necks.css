@@ -1,10 +1,12 @@
+/*padding for brand logo */
+.container-fluid.logo {
+    padding-top: 2em;
+}
+/*shipping banner at the top of the page*/
 .container.shipping {
-    background-color: #0ea2ce;
+    background-color: #ffffff;
     padding-top: 1em;
     width: 100%;
-}
-.fa-2x {
-    font-size: 1.5em !important;
 }
 .navbar {
     position: relative;
