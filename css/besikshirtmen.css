@@ -13,47 +13,30 @@
       text-align: center;
   }
 }
-.fa-2x {
-    font-size: 1.5em !important;
+/*shipping banner at the top of the page*/
+.container.shipping {
+    background-color: #ffffff;
+    padding-top: 1em;
+    width: 100%;
+}
+/*padding for brand logo */
+.container-fluid.logo {
+    padding-top: 2em;
 }
 .navbar {
-    position: relative;
-    min-height: 6em;
-    border: 1px solid transparent;
-    padding: 0.5em;
+  padding: 1em;
 }
-ul.nav.navbar-nav {
-    margin-left: 0.5em;
-}
-ul.nav.navbar-nav li {
-    padding: 0.5em;
-}
-li.nav.navbar-nav.navbar-right {
-    padding-top: 1em;
-}
-li.nav.navbar-nav.navbar-right a {
-    padding: 0.5em;
+.navbar-inverse .navbar-toggle {
+    background-color: #0ea2ce;
 }
 nav.navbar.navbar-inverse {
   background-color: rgb(146, 25, 25);
-  margin-bottom: 0;
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
-  font-family: "Courier New", Courier, monospace;
-}
-.navbar-inverse .navbar-toggle {
-    border-color: #333;
-    background-color: #0ea2ce;
-}
-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: #0ea2ce !important;
-}
-.navbar-inverse .navbar-nav>.open>a {
-    background-color: #0ea2ce !important;
 }
 ul.nav.navbar-nav a:hover {
-    color: #efe992 !important;
+    color: #0ea2ce !important;
 }
 div#men-shirts {
     width: 90%;
@@ -65,12 +48,13 @@ div#men-shirts {
 .container.container-hats {
     padding-top: 2em;
 }
-
+/*besik footer*/
 footer.besik-footer {
-    background-color: black;
-    padding-top: 1em;
+    background-color: #182948;
+    padding-top: 2em;
     position: absolute;
-    width: 100%
+    font-size: 16px;
+    width: 100%;
 }
 .footer-icons {
     display: inline-flex;
@@ -90,16 +74,28 @@ footer.besik-footer {
 }
 .col-sm-12.col-md-4.col-lg-3 li {
     display: block;
-    padding: 1em;
+    padding: 0.5em;
+}
+.about{
+  text-transform: uppercase;
+}
+.connected {
+  text-transform: uppercase;
+}
+.contact{
+  text-transform: uppercase;
 }
 .container.copywright {
-    background-color: black;
-    width: 100%;
+    background-color: #182948;
+
 }
 .footer-bottom .row.text-center {
     color: #fff;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+.row.text-center p{
+  padding-top: 2em;
 }
 .payment-icons {
     display: inline-block;

@@ -1,7 +1,12 @@
+/*shipping banner at the top of the page*/
 .container.shipping {
-    background-color: #182948;
+    background-color: #ffffff;
     padding-top: 1em;
     width: 100%;
+}
+/*padding for brand logo */
+.container-fluid.logo {
+    padding-top: 2em;
 }
 .besik.img-responsive {
   margin: 0 auto;
