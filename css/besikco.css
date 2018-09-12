@@ -1,3 +1,11 @@
+.row-side {
+  display: flex;
+}
+
+.column-side {
+  flex: 33.33%;
+  padding: 5px;
+}
 /*parallax responsive fixed at mobile*/
 @media only screen and (min-width: 320px) {
       .parallax, .parallax-1 {
@@ -169,7 +177,6 @@ h1.text-center, .text-left{
     cursor: pointer;
     user-select: none;
 }
-
 .fa:hover {
   color: #29487d;
 }
