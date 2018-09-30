@@ -1,12 +1,7 @@
 /*parallax responsive fixed at mobile*/
-@media only screen and (min-width: 320px) {
-      .parallax, .parallax-1 {
-        background-attachment: scroll !important;
-      }
- }
  @media only screen and (max-width: 768px) {
        .parallax, .parallax-1 {
-         background-attachment: none !important;
+         background-attachment: scroll !important;
        }
   }
 /*padding for brand logo */
@@ -19,6 +14,7 @@
     padding-top: 1em;
     width: 100%;
 }
+
 /*sticky icon bar*/
 .icon-side-bar {
   position: fixed;
@@ -143,13 +139,14 @@ h1.text-center, .text-left{
     min-height: 500px;
 
     /* Create the parallax scrolling effect */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax-1 {
     /* The image used */
-    background-image: url("/images/black-trucker.jpg");
+    background-image: url("../images/black-trucker.jpg");
 
     /* Set a specific height */
     min-height: 500px;
