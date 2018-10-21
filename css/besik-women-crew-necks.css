@@ -31,6 +31,9 @@ p.lead.crew.text-center {
     font-size: 3em;
     font-weight: 350;
 }
+button.product-button-2 {
+    background-color: #af97541f;
+}
 div#women-crewnecks {
     width: 90%;
     padding-bottom: 2em;

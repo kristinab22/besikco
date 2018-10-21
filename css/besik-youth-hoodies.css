@@ -39,7 +39,7 @@ nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-
 }
 nav.navbar.navbar-inverse {
     margin-bottom: 0;
-    background-color: rgb(146, 25, 25);
+    background-color: rgba(25, 101, 146, 0.55);
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
