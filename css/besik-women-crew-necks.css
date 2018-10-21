@@ -1,3 +1,8 @@
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .container.container-women-crewnecks{
+      text-align: center;
+  }
+}
 /*padding for brand logo */
 .container-fluid.logo {
     padding-top: 2em;
@@ -17,6 +22,9 @@ nav.navbar.navbar-inverse {
 }
 ul.nav.navbar-nav a:hover {
     color: #0ea2ce !important;
+}
+.container.shipping {
+    padding: 2em;
 }
 /*title womens crewnecks on the page*/
 p.lead.crew.text-center {
