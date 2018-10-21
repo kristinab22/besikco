@@ -1,12 +1,7 @@
-//*shipping banner at the top of the page*/
-.container.shipping {
-    background-color: #ffffff;
-    padding-top: 1em;
-    width: 100%;
-}
 /*padding for brand logo */
 .container-fluid.logo {
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 .navbar {
   padding: 1em;
@@ -15,13 +10,18 @@
     background-color: #0ea2ce;
 }
 nav.navbar.navbar-inverse {
-  background-color: rgb(146, 25, 25);
+  background-color: rgba(25, 101, 146, 0.55);
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
 }
 ul.nav.navbar-nav a:hover {
     color: #0ea2ce !important;
+}
+/*title womens crewnecks on the page*/
+p.lead.crew.text-center {
+    font-size: 3em;
+    font-weight: 350;
 }
 div#women-crewnecks {
     width: 90%;

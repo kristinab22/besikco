@@ -55,6 +55,23 @@ ul.nav.navbar-nav a:hover {
     border-color: #333;
     background-color: #0ea2ce;
 }
+/*button to click for description */
+button.product-button-1 {
+    margin-top: 2em;
+}
+.product-button-1 {
+  border-radius: 12px;
+  background-color: #0ea2ce;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 div#women-sweats {
     width: 90%;
     padding-bottom: 2em;

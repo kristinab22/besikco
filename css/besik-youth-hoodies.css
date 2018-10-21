@@ -1,3 +1,8 @@
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .container.container-youth-hoodies {
+      text-align: center;
+  }
+}
 /*padding for brand logo */
 .container-fluid.logo {
     padding-top: 2em;
@@ -46,6 +51,24 @@ ul.nav.navbar-nav a:hover {
     border-color: #333;
     background-color: #0ea2ce;
 }
+/*button to click for description */
+button.product-button {
+    margin-top: 2em;
+}
+.product-button {
+  border-radius: 12px;
+  background-color: #0ea2ce;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*start of the hoodies */
 div#youth-hoodies {
     width: 90%;
     padding-bottom: 2em;
