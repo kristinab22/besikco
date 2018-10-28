@@ -1,8 +1,3 @@
-@media only screen and (min-width: 768px) {
-  .container.container-women-sweats {
-      width: 900px;
-  }
-}
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
   .container.container-women-sweats{
       width: 1200px;
@@ -13,64 +8,43 @@
       text-align: center;
   }
 }
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container.container-women-sweats {
+    width: 900px;
+  }
+}
 /*padding for brand logo */
 .container-fluid.logo {
+    padding-bottom: 2em;
     padding-top: 2em;
 }
 .navbar {
-    position: relative;
-    min-height: 6em;
-    border: 1px solid transparent;
-    padding: 0.5em;
+  padding: 1em;
 }
-ul.nav.navbar-nav li {
-	padding: 0.2em;
-}
-li.nav.navbar-nav.navbar-right {
-	padding-top: 1em;
-}
-li.nav.navbar-nav.navbar-right a {
-	padding: 0.5em;
-}
-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: #0ea2ce !important;
-}
-.navbar-inverse .navbar-nav>.open>a {
-    background-color: #0ea2ce !important;
-}
-.header {
-	  background-color: white !important;
+.navbar-inverse .navbar-toggle {
+    background-color: #0ea2ce;
 }
 nav.navbar.navbar-inverse {
-    margin-bottom: 0;
-    background-color: rgb(146, 25, 25);
+  background-color: rgba(25, 101, 146, 0.55);
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
 }
 ul.nav.navbar-nav a:hover {
-    color: #efe992 !important;
+    color: #0ea2ce !important;
 }
-.navbar-inverse .navbar-toggle {
-    border-color: #333;
-    background-color: #0ea2ce;
+/*shipping*/
+.container.shipping {
+    padding: 2em;
+}
+/*title for youth hoodies*/
+p.lead.women.text-center {
+    font-size: 3em;
+    font-weight: 350;
 }
 /*button to click for description */
 button.product-button-1 {
-    margin-top: 2em;
-}
-.product-button-1 {
-  border-radius: 12px;
-  background-color: #0ea2ce;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    background-color: #af97541f;
 }
 div#women-sweats {
     width: 90%;
