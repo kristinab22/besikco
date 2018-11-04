@@ -46,6 +46,9 @@ div#men-shirts {
 .container.container-hats {
     padding-top: 2em;
 }
+.row.partnerships {
+    display: inline-flex;
+}
 /*besik footer*/
 footer.besik-footer {
     background-color: #182948;
