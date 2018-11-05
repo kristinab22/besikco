@@ -81,6 +81,9 @@ div#products {
 .container.container-joggers {
     padding-top: 2em;
 }
+.row.partnerships {
+    display: inline-flex;
+}
 /*besik footer*/
 footer.besik-footer {
     background-color: #182948;

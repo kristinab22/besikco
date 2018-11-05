@@ -48,6 +48,9 @@ div#youth-hoodies {
     padding-top: 2em;
     padding-bottom: 2em;
 }
+.row.partnerships {
+    display: inline-flex;
+}
 /*besik footer*/
 footer.besik-footer {
     background-color: #182948;
