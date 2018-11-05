@@ -23,9 +23,6 @@ nav.navbar.navbar-inverse {
 ul.nav.navbar-nav a:hover {
     color: #0ea2ce !important;
 }
-.container.shipping {
-    padding: 2em;
-}
 /*title womens crewnecks on the page*/
 p.lead.crew.text-center {
     font-size: 3em;
