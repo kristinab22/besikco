@@ -62,6 +62,10 @@ div#products {
 .container.container-joggers {
     padding-top: 2em;
 }
+.container.partnerships {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 .row.partnerships {
     display: inline-flex;
 }

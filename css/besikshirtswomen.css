@@ -52,6 +52,10 @@ div#women-shirts {
 .container.container-women-shirts {
     padding-top: 2em;
 }
+.container.partnerships {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 .row.partnerships {
     display: inline-flex;
 }

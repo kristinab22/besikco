@@ -60,6 +60,10 @@ div#apparel-style img.img-responsive {
 .content a:hover {
     color: #0ea2ce;
 }
+.container.partnerships {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 .row.partnerships {
     display: inline-flex;
 }
