@@ -1,30 +1,28 @@
-/*shipping banner at the top of the page*/
-.container.shipping {
-    background-color: #ffffff;
-    padding-top: 1em;
-    width: 100%;
-}
 /*padding for brand logo */
 .container-fluid.logo {
+    padding-bottom: 2em;
     padding-top: 2em;
 }
 .besik.img-responsive {
   margin: 0 auto;
 }
 .navbar {
-    padding: 1em;
+  padding: 1em;
 }
 .navbar-inverse .navbar-toggle {
     background-color: #0ea2ce;
 }
 nav.navbar.navbar-inverse {
-  background-color: rgb(146, 25, 25);
+  background-color: rgba(25, 101, 146, 0.55);
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
 }
 ul.nav.navbar-nav a:hover {
     color: #0ea2ce !important;
+}
+p.lead.besik-returns {
+    font-family: 'Archivo', sans-serif;
 }
 .container.partnerships {
     padding-top: 2em;

@@ -54,6 +54,9 @@ nav.navbar.navbar-inverse {
 ul.nav.navbar-nav a:hover {
     color: #0ea2ce !important;
 }
+p.lead.about-besik {
+    font-family: 'Archivo', sans-serif;
+}
 .container.partnerships {
     padding-top: 2em;
     padding-bottom: 2em;

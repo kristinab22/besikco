@@ -1,11 +1,6 @@
-/*shipping banner at the top of the page*/
-.container.shipping {
-    background-color: #ffffff;
-    padding-top: 1em;
-    width: 100%;
-}
 /*padding for brand logo */
 .container-fluid.logo {
+    padding-bottom: 2em;
     padding-top: 2em;
 }
 .besik.img-responsive {
@@ -18,7 +13,7 @@
     background-color: #0ea2ce;
 }
 nav.navbar.navbar-inverse {
-  background-color: rgb(146, 25, 25);
+  background-color: rgba(25, 101, 146, 0.55);
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #fff !important;
@@ -26,9 +21,8 @@ nav.navbar.navbar-inverse {
 ul.nav.navbar-nav a:hover {
     color: #0ea2ce !important;
 }
-div.container.privacy {
-    color: #000000;
-    margin-top: -3em;
+.col-sm-12.lead.besik-privacy {
+    font-family: 'Archivo', sans-serif;
 }
 .container.partnerships {
     background-color: #ffffff;

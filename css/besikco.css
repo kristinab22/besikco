@@ -14,7 +14,6 @@
     padding-top: 1em;
     width: 100%;
 }
-
 /*sticky icon bar*/
 .icon-side-bar {
   position: fixed;
@@ -103,7 +102,9 @@ h1.text-center, .text-left{
 .container.instagram {
     padding-bottom: 2em;
 }
-
+p.lead.besik-mission {
+    font-family: 'Archivo', sans-serif;
+}
 .container.container-shop-1 .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
