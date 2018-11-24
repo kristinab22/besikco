@@ -6,13 +6,18 @@
   }
 /*padding for brand logo */
 .container-fluid.logo {
+    background-color: #000;
     padding-top: 2em;
+
 }
 /*shipping banner at the top of the page*/
 .container.shipping {
-    background-color: #ffffff;
+    background-color: #000;
     padding-top: 1em;
     width: 100%;
+}
+strong {
+    color: white;
 }
 /*sticky icon bar*/
 .icon-side-bar {
@@ -43,9 +48,6 @@
   background: #3B5998;
   color: white;
 }
-.linkedin {
-  background: #007bb5;
-  color: white;
 }
 /*besik navagation bar*/
 .dropdown-submenu {
