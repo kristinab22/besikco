@@ -1,25 +1,38 @@
 /*parallax responsive fixed at mobile*/
  @media only screen and (max-width: 768px) {
-       .parallax, .parallax-1 {
-         background-attachment: scroll !important;
-       }
-  }
-/*padding for brand logo */
-.container-fluid.logo {
-    background-color: #000;
-    padding-top: 2em;
-
+   .parallax, .parallax-1 {
+     background-attachment: scroll !important;
+   }
 }
-/*shipping banner at the top of the page*/
-.container.shipping {
-    background-color: #000;
-    padding-top: 1em;
-    width: 100%;
+/* logo */
+.container.logo {
+    padding: 1em;
 }
-strong {
-    color: white;
+button.fa.fa-shopping-cart {
+    background-color: #222;
+    border: none;
+    color: #508f50;
+    float: right;
 }
-/*sticky icon bar*/
+div#besikNav {
+    padding-left: 12em;
+    margin-bottom: 1em;
+}
+/* navigation bar */
+nav.navbar.navbar-inverse {
+    margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff !important;
+}
+ul.nav.navbar-nav a:hover {
+    color: #efe992 !important;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #0ea2ce;
+}
+/* sticky icon bar */
 .icon-side-bar {
   position: fixed;
   top: 50%;
@@ -47,59 +60,6 @@ strong {
 .facebook {
   background: #3B5998;
   color: white;
-}
-}
-/*besik navagation bar*/
-.dropdown-submenu {
-    position: relative;
-}
-
-.dropdown-submenu .dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: -1px;
-}
-.navbar {
-    position: relative;
-    min-height: 6em;
-    border: 1px solid transparent;
-    padding: 0.5em;
-}
-ul.nav.navbar-nav li {
-	padding: 0.2em;
-}
-li.nav.navbar-nav.navbar-right {
-	padding-top: 1em;
-}
-li.nav.navbar-nav.navbar-right a {
-	padding: 0.5em;
-}
-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: #0ea2ce !important;
-}
-.navbar-inverse .navbar-nav>.open>a {
-    background-color: #0ea2ce !important;
-}
-.header {
-	  background-color: white !important;
-}
-nav.navbar.navbar-inverse {
-    margin-bottom: 0;
-    background-color: rgb(146, 25, 25);
-}
-.navbar-inverse .navbar-nav>li>a {
-  color: #fff !important;
-}
-ul.nav.navbar-nav a:hover {
-    color: #efe992 !important;
-}
-.navbar-inverse .navbar-toggle {
-    border-color: #333;
-    background-color: #0ea2ce;
-}
-h1.text-center, .text-left{
-	font: normal 50px;
-  color: hsl(188, 100%, 17%) !important;
 }
 .container.instagram {
     padding-bottom: 2em;
