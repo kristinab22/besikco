@@ -11,7 +11,7 @@
 button.fa.fa-shopping-cart {
     background-color: #222;
     border: none;
-    color: #508f50;
+    color: #fff;
     float: right;
 }
 div#besikNav {
@@ -60,6 +60,22 @@ ul.nav.navbar-nav a:hover {
 .facebook {
   background: #3B5998;
   color: white;
+}
+/* text on the main image on page under nav bar*/
+.container-shop-3 {
+  position: relative;
+  max-width: 1600px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container-shop-3 .content {
+  position: absolute; /* Position the background text */
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 90%; /* Full width */
+  padding: 20px; /* Some padding */
 }
 .container.instagram {
     padding-bottom: 2em;
@@ -119,9 +135,6 @@ p.lead.besik-mission {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.container.slogan {
-  padding: 4em;
 }
 .fa.fa-thumbs-up {
     font-size: 60px;

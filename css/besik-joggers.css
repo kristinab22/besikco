@@ -1,18 +1,3 @@
-@media only screen and (min-width: 768px) {
-  .container.container-beanies {
-      width: 900px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
-  .container.container-beanies {
-      width: 1200px;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 768px) {
-  .container.container-beanies {
-      text-align: center;
-  }
-}
 /*padding for brand logo */
 .container-fluid.logo {
     padding-bottom: 2em;
@@ -33,20 +18,38 @@ nav.navbar.navbar-inverse {
 ul.nav.navbar-nav a:hover {
     color: #0ea2ce !important;
 }
-/*title for beanies*/
-p.lead.beanies.text-center {
+/*title for joggers*/
+p.lead.tees.text-center {
     font-size: 3em;
     font-weight: 350;
 }
-div#products {
-    width: 90%;
-    padding-bottom: 2em;
+div#apparel-style img.img-responsive {
+    margin: auto;
 }
-.shopify-buy-frame--product {
-    display: -webkit-inline-box !important;
+.container.joggers.text-center {
+  padding-top: 3em;
 }
-.container.container-beanies {
-    padding-top: 2em;
+.container-fluid.joggers-models .col-sm-6 {
+  padding: 0;
+}
+.container-fluid.container-joggers .col-lg-6 {
+  padding: 0;
+}
+
+.container-fluid.container-joggers .content{
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 90%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.content a {
+    color: #fff;
+    text-decoration: none !important;
+}
+.content a:hover {
+    color: #0ea2ce;
 }
 .container.partnerships {
     padding-top: 2em;
