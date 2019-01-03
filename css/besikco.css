@@ -242,9 +242,6 @@ footer.besik-footer {
 .row.text-center p{
   padding-top: 2em;
 }
-.payment-icons {
-    display: inline-block;
+img.checkout.img-responsive {
     float: right;
-    margin-top: -0.5em;
-    clear: both;
 }
