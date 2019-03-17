@@ -27,14 +27,9 @@
   background: #3B5998;
   color: white;
 }
-/*padding for brand logo */
-.container-fluid.logo {
-    padding-bottom: 2em;
-    padding-top: 2em;
-}
-/*shipping banner at the top of the page*/
-.container.shipping {
-    padding: 2em;
+/* logo */
+.container.logo {
+    padding: 1em;
 }
 /*title customer reviews*/
 p.lead.reviews.text-center {
@@ -44,20 +39,27 @@ p.lead.reviews.text-center {
 .besik.img-responsive {
   margin: 0 auto;
 }
-.navbar {
-  padding: 1em;
-}
-.navbar-inverse .navbar-toggle {
-    background-color: #0ea2ce;
-}
+/* navigation bar */
 nav.navbar.navbar-inverse {
-  background-color: rgba(25, 101, 146, 0.55);
+    background-color: #ffffff;
+    border: none;
 }
 .navbar-inverse .navbar-nav>li>a {
-  color: #fff !important;
+  color: #000 !important;
+  font-size: 16px;
 }
-ul.nav.navbar-nav a:hover {
-    color: #0ea2ce !important;
+ul.nav.navbar-nav {
+    float: right;
+}
+ul.nav.navbar-nav a:hover{
+    color: #ccc !important;
+}
+ul.dropdown-menu {
+  font-size: 18px;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #0ea2ce;
 }
 div.container.testimonials {
     color: #000000;
@@ -70,16 +72,9 @@ div.container.testimonials {
 .checked {
     color: orange;
 }
-.container.partnerships {
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-.row.partnerships {
-    display: inline-flex;
-}
 /*besik footer*/
 footer.besik-footer {
-    background-color: #182948;
+    background-color: #fbfbfb;
     padding-top: 2em;
     font-size: 16px;
 }
@@ -87,17 +82,17 @@ footer.besik-footer {
     display: inline-flex;
 }
 .row-footer h4 {
-    color: #efe992;
+    color: #0ea2ce;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a:hover {
     color: #0ea2ce;
 }
 .hours-email li {
-  color: white;
+  color: #000000;
 }
 .col-sm-12.col-md-4.col-lg-3 li {
     display: block;
@@ -113,7 +108,7 @@ footer.besik-footer {
   text-transform: uppercase;
 }
 .container.copywright {
-    background-color: #182948;
+    background-color: #fbfbfb;
 
 }
 .footer-bottom .row.text-center {
@@ -124,9 +119,6 @@ footer.besik-footer {
 .row.text-center p{
   padding-top: 2em;
 }
-.payment-icons {
-    display: inline-block;
+img.checkout.img-responsive {
     float: right;
-    margin-top: -0.5em;
-    clear: both;
 }
