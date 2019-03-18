@@ -1,46 +1,24 @@
-/*padding for brand logo */
-.container-fluid.logo {
-    padding-top: 2em;
+/* logo */
+.container.logo {
+    padding: 1em;
 }
-/*shipping banner at the top of the page*/
-.container.shipping {
-    background-color: #ffffff;
-    padding-top: 1em;
-    width: 100%;
-}
-.navbar {
-    position: relative;
-    min-height: 6em;
-    border: 1px solid transparent;
-    padding: 0.5em;
-}
-ul.nav.navbar-nav li {
-	padding: 0.2em;
-}
-li.nav.navbar-nav.navbar-right {
-	padding-top: 1em;
-}
-li.nav.navbar-nav.navbar-right a {
-	padding: 0.5em;
-}
-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: #0ea2ce !important;
-}
-.navbar-inverse .navbar-nav>.open>a {
-    background-color: #0ea2ce !important;
-}
-.header {
-	  background-color: white !important;
-}
+/* navigation bar */
 nav.navbar.navbar-inverse {
-    margin-bottom: 0;
-    background-color: rgb(146, 25, 25);
+    background-color: #ffffff;
+    border: none;
 }
 .navbar-inverse .navbar-nav>li>a {
-  color: #fff !important;
+  color: #000 !important;
+  font-size: 16px;
 }
-ul.nav.navbar-nav a:hover {
-    color: #efe992 !important;
+ul.nav.navbar-nav {
+    float: right;
+}
+ul.nav.navbar-nav a:hover{
+    color: #ccc !important;
+}
+ul.dropdown-menu {
+  font-size: 18px;
 }
 .navbar-inverse .navbar-toggle {
     border-color: #333;
@@ -57,16 +35,9 @@ div#men-tank-tops {
     padding-top: 2em;
     padding-bottom: 2em;
 }
-.container.partnerships {
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-.row.partnerships {
-    display: inline-flex;
-}
 /*besik footer*/
 footer.besik-footer {
-    background-color: #182948;
+    background-color: #fbfbfb;
     padding-top: 2em;
     font-size: 16px;
 }
@@ -74,17 +45,17 @@ footer.besik-footer {
     display: inline-flex;
 }
 .row-footer h4 {
-    color: #efe992;
+    color: #0ea2ce;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a:hover {
     color: #0ea2ce;
 }
 .hours-email li {
-  color: white;
+  color: #000000;
 }
 .col-sm-12.col-md-4.col-lg-3 li {
     display: block;
@@ -100,7 +71,7 @@ footer.besik-footer {
   text-transform: uppercase;
 }
 .container.copywright {
-    background-color: #182948;
+    background-color: #fbfbfb;
 
 }
 .footer-bottom .row.text-center {
@@ -111,9 +82,6 @@ footer.besik-footer {
 .row.text-center p{
   padding-top: 2em;
 }
-.payment-icons {
-    display: inline-block;
+img.checkout.img-responsive {
     float: right;
-    margin-top: -0.5em;
-    clear: both;
 }
