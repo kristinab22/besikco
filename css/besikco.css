@@ -24,9 +24,6 @@ nav.navbar.navbar-inverse {
 ul.nav.navbar-nav {
     float: right;
 }
-ul.nav.navbar-nav a:hover{
-    color: #ccc !important;
-}
 ul.dropdown-menu {
   font-size: 18px;
 }
@@ -73,18 +70,30 @@ img.hoodies.img-responsive {
 p.lead.besik-mission {
     font-family: 'Archivo', sans-serif;
 }
-.container.container-shop-1 .content {
+/*padding on bottom of laptop/hat image*/
+.container.container-banner {
+    padding-bottom: 2em;
+}
+.container.container-banner .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    background: #000000; /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 70%; /* Full width */
+    width: 45%; /* Full width */
     padding: 20px; /* Some padding */
 }
 .container.container-shop .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    background: #000000; /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 70%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+.container.container-shop-1 .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #000000; /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
     width: 70%; /* Full width */
     padding: 20px; /* Some padding */
@@ -94,7 +103,7 @@ p.lead.besik-mission {
     text-decoration: none !important;
 }
 .content a:hover {
-    color: #0ea2ce;
+    color: #fff;
 }
 .container.mission {
   background-color: #ffffff;
@@ -104,33 +113,8 @@ p.lead.besik-mission {
     padding-top: 4em;
 }
 .container.container-shop-1 {
-    padding-bottom: 4em;
-}
-.parallax {
-    /* The image used */
-    background-image: url("../images/besikback.jpg");
-
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-1 {
-    /* The image used */
-    background-image: url("../images/hawaii-roca.jpg");
-
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  padding-bottom: 2em;
+  padding-top: 4em;
 }
 .fa.fa-thumbs-up {
     font-size: 60px;
@@ -150,6 +134,33 @@ p.lead.besik-mission {
 .container-fluid.container-models .col-sm-4 {
     padding: 0;
 }
+.simple {
+    background-color: #000000;
+    color: white;
+    padding: 2em;
+}
+.simple-subscription-form {
+  background: #0c3e5f;
+  color: #fefefe;
+  padding: 2rem;
+  border-radius: 0;
+}
+
+.simple-subscription-form .button {
+  border-radius: 0 0 0 0;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+input#mail {
+    color: #000000;
+    padding: .5em;
+}
+button.signup{
+    background-color: #000000;
+    padding: .5em;
+    width: 20%;
+}
 .row.text-center {
     padding-bottom: 2em;
 }
@@ -162,15 +173,18 @@ p.lead.besik-mission {
     padding-bottom: 4em;
 }
 .testimonials {
-    background-color: #9a2727;
+    background-color: #000000;
     color: white;
     padding-top: .1em;
 }
+.signups {
+  background-color: #0c3e5f;
+  color: white;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
 .checked {
     color: orange;
-}
-h2.text-center {
-  padding-top: 1.5em;
 }
 .section-title.text-center h2 {
     color: #0ea2ce;
