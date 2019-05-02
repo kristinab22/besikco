@@ -31,8 +31,13 @@ ul.dropdown-menu {
 }
 /*title for beanies*/
 p.lead.beanies.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
+}
+.container.besik-beanies {
+    background-color: #000000;
+    width: 100%;
 }
 div#products {
     width: 90%;
