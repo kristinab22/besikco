@@ -31,8 +31,13 @@ ul.dropdown-menu {
 }
 /*title for different hats*/
 p.lead.dad-hats.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
+}
+.container.dad-hats {
+  background-color: #000000;
+  width: 100%;
 }
 img.img-responsive {
     margin: auto;
