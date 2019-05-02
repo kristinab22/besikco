@@ -26,13 +26,15 @@ ul.dropdown-menu {
 }
 /*title for joggers*/
 p.lead.joggers.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }
-/*button to click for description */
-button.product-button {
-    background-color: #af97541f;
+.container.jogger-pants {
+    background-color: #000000;
+    width: 100%;
 }
+
 div#products {
     width: 90%;
     padding-bottom: 2em;
@@ -43,13 +45,7 @@ div#products {
 .container.container-joggers {
     padding-top: 2em;
 }
-.container.partnerships {
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-.row.partnerships {
-    display: inline-flex;
-}
+
 /*besik footer*/
 footer.besik-footer {
     background-color: #fbfbfb;
