@@ -42,13 +42,15 @@ ul.dropdown-menu {
 }
 /*title for youth hoodies*/
 p.lead.hats.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }
-/*button to click for description */
-button.product-button {
-    background-color: #af97541f;
+.container.all-hats {
+  background-color: #000000;
+  width: 100%;
 }
+
 div#products {
     width: 90%;
     padding-bottom: 2em;
