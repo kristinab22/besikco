@@ -34,8 +34,13 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #0ea2ce;
 }
+.container.adult-tees {
+  background-color: #000000;
+  width: 100%;
+}
 /*title for adult tees*/
 p.lead.tees.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }

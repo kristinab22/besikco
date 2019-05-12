@@ -29,8 +29,13 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #0ea2ce;
 }
+.container.womens-crews {
+  background-color: #000000;
+  width: 100%;
+}
 /*title womens crewnecks on the page*/
 p.lead.crew.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }

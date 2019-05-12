@@ -24,8 +24,14 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #0ea2ce;
 }
+
+.container.adult-joggers {
+  background-color: #000000;
+  width: 100%;
+}
 /*title for joggers*/
-p.lead.tees.text-center {
+p.lead.joggers.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }

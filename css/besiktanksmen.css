@@ -24,6 +24,16 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #0ea2ce;
 }
+.container.men-tanks {
+  background-color: #000000;
+  width: 100%;
+}
+/*title for tanks*/
+p.lead.men-tanks.text-center {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 350;
+}
 div#men-tank-tops {
     width: 90%;
     padding-bottom: 2em;

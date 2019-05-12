@@ -39,6 +39,16 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #0ea2ce;
 }
+.container.men-hoodies {
+  background-color: #000000;
+  width: 100%;
+}
+/*title for joggers*/
+p.lead.men-hoodies.text-center {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 350;
+}
 div#men-sweats {
     width: 90%;
     padding-bottom: 2em;

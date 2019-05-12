@@ -39,8 +39,13 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #0ea2ce;
 }
+.container.women-hoodies {
+  background-color: #000000;
+  width: 100%;
+}
 /*title for youth hoodies*/
 p.lead.women.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }

@@ -24,8 +24,13 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #0ea2ce;
 }
+.container.hoodies-crewnecks {
+  background-color: #000000;
+  width: 100%;
+}
 /*title hoodies and crewnecks on the page*/
 p.lead.hoodies-crewnewcks.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }
