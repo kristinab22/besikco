@@ -43,15 +43,15 @@ p.lead.men.text-center {
 button.product-button {
     background-color: #af97541f;
 }
+.container.container-men-shirts {
+    padding-top: 2em;
+}
 div#men-shirts {
     width: 90%;
     padding-bottom: 2em;
 }
 .shopify-buy-frame--product {
     display: -webkit-inline-box !important;
-}
-.container.container-hats {
-    padding-top: 2em;
 }
 /*besik footer*/
 footer.besik-footer {
