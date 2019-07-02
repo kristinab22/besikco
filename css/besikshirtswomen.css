@@ -42,7 +42,6 @@ p.lead.women.text-center {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -63,28 +62,24 @@ p.lead.women.text-center {
 .container-1:hover .image {
   opacity: 0.3;
 }
-
 .container-1:hover .middle {
   opacity: 1;
 }
 .container-2:hover .image {
   opacity: 0.3;
 }
-
 .container-2:hover .middle {
   opacity: 1;
 }
 .container-3:hover .image {
   opacity: 0.3;
 }
-
 .container-3:hover .middle {
   opacity: 1;
 }
 .container-4:hover .image {
   opacity: 0.3;
 }
-
 .container-4:hover .middle {
   opacity: 1;
 }
