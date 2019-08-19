@@ -31,11 +31,6 @@
 .container.logo {
     padding: 1em;
 }
-/*title customer reviews*/
-p.lead.reviews.text-center {
-    font-size: 3em;
-    font-weight: 350;
-}
 .besik.img-responsive {
   margin: 0 auto;
 }
@@ -65,16 +60,30 @@ div.container.testimonials {
     color: #000000;
     width: 100%;
 }
-.testimonials {
-    margin-top: 2em;
-    background-color: #ffffff;
-}
+
 .checked {
     color: orange;
 }
+*{
+   font-family: 'Poppins', sans-serif;
+}
+.testimonial_subtitle{
+    color: #0aaa7a;
+    font-size: 12px;
+}
+  .testimonial_btn{
+    background-color: #373d4b !important;
+    color: #fff !important;
+ }
+ .seprator {
+    height: 2px;
+    width: 56px;
+    background-color: #0aaa7a;
+    margin: 7px 0 10px 0;
+}
 /*besik footer*/
 footer.besik-footer {
-    background-color: #fbfbfb;
+    background-color: #ffffff;
     padding-top: 2em;
     font-size: 16px;
 }
@@ -108,7 +117,7 @@ footer.besik-footer {
   text-transform: uppercase;
 }
 .container.copywright {
-    background-color: #fbfbfb;
+    background-color: #ffffff;
 
 }
 .footer-bottom .row.text-center {
