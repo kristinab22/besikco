@@ -139,28 +139,6 @@ p.lead.besik-mission {
     color: white;
     padding: 2em;
 }
-.simple-subscription-form {
-  background: #0c3e5f;
-  color: #fefefe;
-  padding: 2rem;
-  border-radius: 0;
-}
-
-.simple-subscription-form .button {
-  border-radius: 0 0 0 0;
-  color: #000000;
-  margin-bottom: 0;
-}
-
-input#mail {
-    color: #000000;
-    padding: .5em;
-}
-button.signup{
-    background-color: #000000;
-    padding: .5em;
-    width: 20%;
-}
 .row.text-center {
     padding-bottom: 2em;
 }
@@ -198,7 +176,7 @@ h2.insta-banner.text-center {
 }
 /*besik footer*/
 footer.besik-footer {
-    background-color: #fbfbfb;
+    background-color: #ffffff;
     padding-top: 2em;
     font-size: 16px;
 }
@@ -232,8 +210,7 @@ footer.besik-footer {
   text-transform: uppercase;
 }
 .container.copywright {
-    background-color: #fbfbfb;
-
+    background-color: white;
 }
 .footer-bottom .row.text-center {
     color: #fff;
