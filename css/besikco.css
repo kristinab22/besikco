@@ -8,6 +8,7 @@
 .container.logo {
     padding: 1em;
 }
+
 div#besikNav {
     padding-left: 12em;
     margin-bottom: 1em;
@@ -22,7 +23,7 @@ nav.navbar.navbar-inverse {
   font-size: 16px;
 }
 ul.nav.navbar-nav {
-    float: right;
+  margin-left: 15em;
 }
 ul.dropdown-menu {
   font-size: 18px;
@@ -77,7 +78,7 @@ p.lead.besik-mission {
 .container.container-banner .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: #000000; /* Black background with 0.5 opacity */
+    background: #469641; /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
     width: 45%; /* Full width */
     padding: 20px; /* Some padding */
@@ -85,18 +86,18 @@ p.lead.besik-mission {
 .container.container-shop .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: #000000; /* Black background with 0.5 opacity */
+    background: #469641; /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 70%; /* Full width */
-    padding: 20px; /* Some padding */
+    width: 65%; /* Full width */
+    padding: 10px; /* Some padding */
 }
 .container.container-shop-1 .content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: #000000; /* Black background with 0.5 opacity */
+    background: #469641; /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 70%; /* Full width */
-    padding: 20px; /* Some padding */
+    width: 65%; /* Full width */
+    padding: 10px; /* Some padding */
 }
 .content a {
     color: #fff;
@@ -135,7 +136,12 @@ p.lead.besik-mission {
     padding: 0;
 }
 .simple {
-    background-color: #000000;
+    background-color: #b32323;
+    color: white;
+    padding: 2em;
+}
+.besik {
+    background-color: #0ea2ce;
     color: white;
     padding: 2em;
 }
@@ -151,7 +157,7 @@ p.lead.besik-mission {
     padding-bottom: 4em;
 }
 .testimonials {
-    background-color: #000000;
+    background-color: #0ea2ce;
     color: white;
     padding-top: .1em;
 }
