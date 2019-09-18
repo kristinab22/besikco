@@ -8,7 +8,6 @@
 .container.logo {
     padding: 1em;
 }
-
 div#besikNav {
     padding-left: 12em;
     margin-bottom: 1em;
@@ -34,42 +33,6 @@ ul.dropdown-menu {
 .navbar-inverse .navbar-toggle {
     border-color: #333;
     background-color: #0ea2ce;
-}
-/*banner image of hoodies center*/
-img.hoodies.img-responsive {
-    margin: auto;
-}
-/* sticky icon bar */
-.icon-side-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1;
-}
-.icon-side-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
-  z-index: 0;
-}
-.icon-side-bar a:hover {
-    background-color: #000;
-}
-.instagram {
-  background: #bb0000;
-  color: white;
-}
-.facebook {
-  background: #3B5998;
-  color: white;
-}
-.container.instagram {
-    padding-bottom: 2em;
 }
 p.lead.besik-mission {
     font-family: 'Archivo', sans-serif;
