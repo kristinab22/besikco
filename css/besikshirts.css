@@ -71,6 +71,21 @@ div#apparel-style img.img-responsive {
 .content a:hover {
     color: #0ea2ce;
 }
+.container-fluid.container-shirts .content-1{
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 90%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.content-1 a {
+    color: #fff;
+    text-decoration: none !important;
+}
+.content-1 a:hover {
+    color: #0ea2ce;
+}
 /*besik footer*/
 footer.besik-footer {
     background-color: #ffffff;
