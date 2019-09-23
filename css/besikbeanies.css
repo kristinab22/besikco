@@ -7,11 +7,11 @@
 .container.logo {
     padding: 1em;
 }
+/* navigation bar */
 div#besikNav {
     padding-left: 12em;
     margin-bottom: 1em;
 }
-/* navigation bar */
 nav.navbar.navbar-inverse {
     background-color: #ffffff;
     border: none;
