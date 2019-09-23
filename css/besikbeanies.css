@@ -7,6 +7,10 @@
 .container.logo {
     padding: 1em;
 }
+div#besikNav {
+    padding-left: 12em;
+    margin-bottom: 1em;
+}
 /* navigation bar */
 nav.navbar.navbar-inverse {
     background-color: #ffffff;
@@ -14,13 +18,13 @@ nav.navbar.navbar-inverse {
 }
 .navbar-inverse .navbar-nav>li>a {
   color: #000 !important;
-  font-size: 16px;
+  font-size: 18px;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: #0ea2ce !important;
 }
 ul.nav.navbar-nav {
-    float: right;
-}
-ul.nav.navbar-nav a:hover{
-    color: #ccc !important;
+  margin-left: 15em;
 }
 ul.dropdown-menu {
   font-size: 18px;
