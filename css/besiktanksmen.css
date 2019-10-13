@@ -42,12 +42,50 @@ div#men-tank-tops {
     width: 90%;
     padding-bottom: 2em;
 }
-.shopify-buy-frame--product {
-    display: -webkit-inline-box !important;
-}
 .container.container-men-tank-tops {
     padding-top: 2em;
     padding-bottom: 2em;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+.container-1:hover .image {
+  opacity: 0.3;
+}
+.container-1:hover .middle {
+  opacity: 1;
+}
+.container-2:hover .image {
+  opacity: 0.3;
+}
+.container-2:hover .middle {
+  opacity: 1;
+}
+.container-3:hover .image {
+  opacity: 0.3;
+}
+.container-3:hover .middle {
+  opacity: 1;
+}
+.container-4:hover .image {
+  opacity: 0.3;
+}
+.container-4:hover .middle {
+  opacity: 1;
 }
 /*besik footer*/
 footer.besik-footer {
