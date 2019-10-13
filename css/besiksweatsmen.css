@@ -1,18 +1,3 @@
-@media only screen and (min-width: 768px) {
-  .container.container-men-sweats {
-      width: 900px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
-  .container.container-men-sweats{
-      width: 1200px;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 768px) {
-  .container.container-men-sweats {
-      text-align: center;
-  }
-}
 /* logo */
 .container.logo {
     padding: 1em;

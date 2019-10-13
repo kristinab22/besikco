@@ -1,13 +1,3 @@
-@media only screen and (max-width: 1024px) {
-  .parallax-1, .parallax-2 {
-    background-attachment: none;
-  }
-}
-@media only screen and (min-width: 1025px) {
-  .parallax-1, .parallax-2 {
-    background-attachment: fixed;
-  }
-}
 /* logo */
 .container.logo {
     padding: 1em;
