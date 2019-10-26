@@ -1,5 +1,5 @@
 @media only screen and (min-width: 400px) and (max-width: 768px) {
-  .container.container-youth-hoodies {
+  .container.container-bikinis {
       text-align: center;
   }
 }
@@ -33,22 +33,64 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #0ea2ce;
 }
-/*title for youth hoodies*/
-p.lead.youth.text-center {
+/*title for bikinis*/
+p.lead.bikinis.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }
-/*start of the hoodies */
-div#youth-hoodies {
-    width: 90%;
-    padding-bottom: 2em;
+.container.besik-bikinis {
+    background-color: #000000;
+    width: 100%;
 }
-.shopify-buy-frame--product {
-    display: -webkit-inline-box !important;
+.image.img-responsive {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
-.container.container-youth-hoodies {
-    padding-top: 2em;
-    padding-bottom: 2em;
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+.container-1:hover .image {
+  opacity: 0.3;
+}
+.container-1:hover .middle {
+  opacity: 1;
+}
+.container-2:hover .image {
+  opacity: 0.3;
+}
+.container-2:hover .middle {
+  opacity: 1;
+}
+.container-3:hover .image {
+  opacity: 0.3;
+}
+.container-3:hover .middle {
+  opacity: 1;
+}
+.container-4:hover .image {
+  opacity: 0.3;
+}
+.container-4:hover .middle {
+  opacity: 1;
 }
 /*besik footer*/
 footer.besik-footer {
