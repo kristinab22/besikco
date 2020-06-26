@@ -3,8 +3,9 @@
       text-align: center;
   }
 }
-/* logo */
-.container.logo {
+.blm {
+    background-color: #000000;
+    color: white;
     padding: 1em;
 }
 /* navigation bar */
@@ -21,17 +22,14 @@ nav.navbar.navbar-inverse {
   font-size: 18px;
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-  background-color: #0ea2ce !important;
-}
-ul.nav.navbar-nav {
-  margin-left: 15em;
+  background-color: #ccc !important;
 }
 ul.dropdown-menu {
   font-size: 18px;
 }
 .navbar-inverse .navbar-toggle {
     border-color: #333;
-    background-color: #0ea2ce;
+    background-color: #000000;
 }
 .container.womens-crews {
   background-color: #000000;
@@ -94,7 +92,7 @@ p.lead.crew.text-center {
 }
 /*besik footer*/
 footer.besik-footer {
-    background-color: #fbfbfb;
+    background-color: #000000;
     padding-top: 2em;
     font-size: 16px;
 }
@@ -102,17 +100,17 @@ footer.besik-footer {
     display: inline-flex;
 }
 .row-footer h4 {
-    color: #0ea2ce;
+    color: #ffffff;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a:hover {
-    color: #0ea2ce;
+    color: #ffffff;
 }
 .hours-email li {
-  color: #000000;
+  color: #ffffff;
 }
 .col-sm-12.col-md-4.col-lg-3 li {
     display: block;
@@ -128,7 +126,7 @@ footer.besik-footer {
   text-transform: uppercase;
 }
 .container.copywright {
-    background-color: #fbfbfb;
+    background-color: #000000;
 
 }
 .footer-bottom .row.text-center {
@@ -138,7 +136,4 @@ footer.besik-footer {
 }
 .row.text-center p{
   padding-top: 2em;
-}
-img.checkout.img-responsive {
-    float: right;
 }
