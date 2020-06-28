@@ -1,5 +1,22 @@
-/* logo */
-.container.logo {
+@media only screen and (min-width: 768px) {
+  .container.container-joggers-women, .container.container-joggers-men  {
+      width: 900px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .container.container-joggers-women, .container.container-joggers-men  {
+      width: 1200px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .container.container-joggers-women, .container.container-joggers-men {
+      text-align: center;
+  }
+
+}
+.blm {
+    background-color: #000000;
+    color: white;
     padding: 1em;
 }
 /* navigation bar */
@@ -16,19 +33,16 @@ nav.navbar.navbar-inverse {
   font-size: 18px;
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-  background-color: #0ea2ce !important;
-}
-ul.nav.navbar-nav {
-  margin-left: 15em;
+  background-color: #ccc !important;
 }
 ul.dropdown-menu {
   font-size: 18px;
 }
 .navbar-inverse .navbar-toggle {
     border-color: #333;
-    background-color: #0ea2ce;
+    background-color: #000000;
 }
-/*title for men joggers*/
+/*title for women joggers*/
 p.lead.joggers.text-center {
     color: #ffffff;
     font-size: 3em;
@@ -55,13 +69,12 @@ div#products {
 .shopify-buy-frame--product {
     display: -webkit-inline-box !important;
 }
-.container.container-joggers {
+.container.container-joggers-women {
     padding-top: 2em;
 }
-
 /*besik footer*/
 footer.besik-footer {
-    background-color: #fbfbfb;
+    background-color: #000000;
     padding-top: 2em;
     font-size: 16px;
 }
@@ -69,17 +82,17 @@ footer.besik-footer {
     display: inline-flex;
 }
 .row-footer h4 {
-    color: #0ea2ce;
+    color: #ffffff;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a {
-    color: #000000;
+    color: #ddd;
     text-decoration: none;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a:hover {
-    color: #0ea2ce;
+    color: #ffffff;
 }
 .hours-email li {
-  color: #000000;
+  color: #ddd;
 }
 .col-sm-12.col-md-4.col-lg-3 li {
     display: block;
@@ -95,8 +108,7 @@ footer.besik-footer {
   text-transform: uppercase;
 }
 .container.copywright {
-    background-color: #fbfbfb;
-
+    background-color: #000000;
 }
 .footer-bottom .row.text-center {
     color: #fff;
@@ -105,7 +117,4 @@ footer.besik-footer {
 }
 .row.text-center p{
   padding-top: 2em;
-}
-img.checkout.img-responsive {
-    float: right;
 }

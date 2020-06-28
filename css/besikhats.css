@@ -14,9 +14,10 @@
   }
 
 }
-/*padding for brand logo */
-.container.logo {
-  padding: 1em;
+.blm {
+    background-color: #000000;
+    color: white;
+    padding: 1em;
 }
 /* navigation bar */
 div#besikNav {
@@ -32,17 +33,14 @@ nav.navbar.navbar-inverse {
   font-size: 18px;
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-  background-color: #0ea2ce !important;
-}
-ul.nav.navbar-nav {
-  margin-left: 15em;
+  background-color: #ccc !important;
 }
 ul.dropdown-menu {
   font-size: 18px;
 }
 .navbar-inverse .navbar-toggle {
     border-color: #333;
-    background-color: #0ea2ce;
+    background-color: #000000;
 }
 /*title for youth hoodies*/
 p.lead.hats.text-center {
@@ -59,15 +57,63 @@ div#products {
     width: 90%;
     padding-bottom: 2em;
 }
-.shopify-buy-frame--product {
-    display: -webkit-inline-box !important;
+.image.img-responsive {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
-.container.container-hats {
-    padding-top: 2em;
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+.container-1:hover .image {
+  opacity: 0.3;
+}
+
+.container-1:hover .middle {
+  opacity: 1;
+}
+.container-2:hover .image {
+  opacity: 0.3;
+}
+
+.container-2:hover .middle {
+  opacity: 1;
+}
+.container-3:hover .image {
+  opacity: 0.3;
+}
+
+.container-3:hover .middle {
+  opacity: 1;
+}
+.container-4:hover .image {
+  opacity: 0.3;
+}
+
+.container-4:hover .middle {
+  opacity: 1;
 }
 /*besik footer*/
 footer.besik-footer {
-    background-color: #fbfbfb;
+    background-color: #000000;
     padding-top: 2em;
     font-size: 16px;
 }
@@ -75,17 +121,17 @@ footer.besik-footer {
     display: inline-flex;
 }
 .row-footer h4 {
-    color: #0ea2ce;
+    color: #ffffff;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a {
-    color: #000000;
+    color: #ddd;
     text-decoration: none;
 }
 .row-footer .col-sm-12.col-md-4.col-lg-3 a:hover {
-    color: #0ea2ce;
+    color: #ffffff;
 }
 .hours-email li {
-  color: #000000;
+  color: #ddd;
 }
 .col-sm-12.col-md-4.col-lg-3 li {
     display: block;
@@ -101,8 +147,7 @@ footer.besik-footer {
   text-transform: uppercase;
 }
 .container.copywright {
-    background-color: #fbfbfb;
-
+    background-color: #000000;
 }
 .footer-bottom .row.text-center {
     color: #fff;
@@ -111,7 +156,4 @@ footer.besik-footer {
 }
 .row.text-center p{
   padding-top: 2em;
-}
-img.checkout.img-responsive {
-    float: right;
 }
