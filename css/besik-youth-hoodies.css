@@ -33,8 +33,13 @@ ul.dropdown-menu {
 }
 /*title for youth hoodies*/
 p.lead.youth.text-center {
+    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
+}
+.container.youth-hoodies {
+  background-color: #000000;
+  width: 100%;
 }
 /*start of the hoodies */
 div#youth-hoodies {
