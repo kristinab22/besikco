@@ -1,5 +1,5 @@
 .blm {
-    background-color: #000000;
+    background-color: #1a465b;
     color: white;
     padding: 1em;
 }
@@ -26,13 +26,8 @@ ul.dropdown-menu {
     border-color: #333;
     background-color: #000000;
 }
-.container.women-tanks {
-  background-color: #000000;
-  width: 100%;
-}
 /*title for tanks*/
 p.lead.women-tanks.text-center {
-    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }

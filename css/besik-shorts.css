@@ -15,7 +15,7 @@
 
 }
 .blm {
-    background-color: #000000;
+    background-color: #1a465b;
     color: white;
     padding: 1em;
 }
@@ -47,10 +47,6 @@ p.lead.shorts.text-center {
     color: #ffffff;
     font-size: 3em;
     font-weight: 350;
-}
-.container.all-shorts {
-  background-color: #000000;
-  width: 100%;
 }
 
 div#products {

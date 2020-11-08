@@ -4,7 +4,7 @@
   }
 }
 .blm {
-    background-color: #000000;
+    background-color: #1a465b;
     color: white;
     padding: 1em;
 }
@@ -33,7 +33,6 @@ ul.dropdown-menu {
 }
 /*title for different hats*/
 p.lead.dad-hats.text-center {
-    color: #ffffff;
     font-size: 3em;
     font-weight: 350;
 }
@@ -85,10 +84,6 @@ p.lead.dad-hats.text-center {
 }
 .container-4:hover .middle {
   opacity: 1;
-}
-.container.dad-hats {
-  background-color: #000000;
-  width: 100%;
 }
 /*besik footer*/
 footer.besik-footer {
