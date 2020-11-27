@@ -4,7 +4,8 @@
   }
 }
 .blm {
-    background-color: #1a465b;
+    /*background-color: #1a465b;*/
+    background-color: black;
     color: white;
     padding: 1em;
 }
@@ -96,6 +97,12 @@ div#arrivals {
 .container.container-arrivals{
     padding-top: 2em;
     padding-bottom: 2em;
+
+}
+.container.all-arrivals{
+  background-color: black;
+  color: white;
+  width: 100%;
 }
 /*besik footer*/
 footer.besik-footer {
